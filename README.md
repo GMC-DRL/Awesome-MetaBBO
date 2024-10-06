@@ -146,7 +146,7 @@
 #### 2.1.3 Algorithm Generation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://arxiv.org/abs/2402.02355)." The Twelfth International Conference on Learning Representations. 2024.|[GMC-DRL/Symbol](https://github.com/GMC-DRL/Symbol)|SOP|-|PPO| |
+|SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://arxiv.org/abs/2402.02355)." The Twelfth International Conference on Learning Representations. 2024.|SOP|-|PPO|[SYMBOL](https://github.com/GMC-DRL/Symbol)|
 
 #### 2.1.4 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
