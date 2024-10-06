@@ -6,9 +6,9 @@
 - [2. MetaBBO](#2-metabbo)
   - [2.1. MetaBBO-RL](#21-metabbo-rl)
     - [2.1.1. Algorithm Selection](#211-algorithm-selection)
-    - [2.1.2. Algorithm Configuration](#212-parameter-contorl)
-    - [2.1.3. Algorithm Generation \& Parameter](#213-operator--parameter)
-    - [2.1.4. Algorithm Imitation](#214-symbolic)
+    - [2.1.2. Algorithm Configuration](#212-algorithm-configuration)
+    - [2.1.3. Algorithm Generation](#213-algorithm-generation)
+    - [2.1.4. Algorithm Imitation](#214-algorithm-imitation)
     - [2.1.5. Others](#215-others)
   - [2.2. MetaBBO-SL](#22-metabbo-with-supervised-learning-metabbo-sl)
     - [2.2.1. Algorithm Selection](#221-operator-selection)
@@ -143,6 +143,15 @@
 |RL-MOEA/D|Ning W, Guo B, Guo X, et al. "[**Reinforcement learning aided parameter control in multi-objective evolutionary algorithm based on decomposition**](https://link.springer.com/article/10.1007/s13748-018-0155-7)". Progress in Artificial Intelligence 2018.|MOOP|MOEA/D|SARSA| |
 |QFA|Sadhu A K, Konar A, Bhattacharjee T, et al. "[**Synergism of firefly algorithm and Q-learning for robot arm path planning**](https://www.sciencedirect.com/science/article/pii/S2210650217306776)". Swarm and Evolutionary Computation 2018.|SOP|FA|Tabular Q-learning| |
 
+#### 2.1.3 Algorithm Generation
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://arxiv.org/abs/2402.02355)." The Twelfth International Conference on Learning Representations. 2024.|[GMC-DRL/Symbol](https://github.com/GMC-DRL/Symbol)|SOP|-|PPO| |
+
+#### 2.1.4 Algorithm Imitation
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. 2022.|SOP|-|PPO| |
 
 
 
