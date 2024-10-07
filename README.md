@@ -180,6 +180,16 @@
 |RNN-Opt|TV, Vishnu, et al. "[**Meta-learning for black-box optimization**](http://proceedings.mlr.press/v70/chen17e.html)." Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Cham: Springer International Publishing (2019).|SOP|-|   |
 |RNN-OI|Chen, Yutian, et al. "[**Learning to learn without gradient descent by gradient descent**](http://proceedings.mlr.press/v70/chen17e.html)." International Conference on Machine Learning. PMLR (2017).|SOP|-|   |
 
+### 2.3 MetaBBO-NE
+#### 2.3.1 Algorithm Selection
+#### 2.3.2 Algorithm Configuration
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|:-:|:-:|:-:|:-:|:-:|
+|LES|Lange, Robert, et al. "[**Discovering evolution strategies via meta-black-box optimization**](https://iclr.cc/virtual/2023/poster/11005)." The Eleventh International Conference on Learning Representations. (2023).|SOP|CMA-ES|  |
+#### 2.3.3 Algorithm Generation
+#### 2.3.4 Algorithm Imitation
+|LGA|Lange, Robert, et al. "[**Discovering attention-based genetic algorithms via meta-black-box optimization**](https://dl.acm.org/doi/abs/10.1145/3583131.3590496)." Proceedings of the Genetic and Evolutionary Computation Conference. 2023.|SOP|GA|  |
+
 
 
 
