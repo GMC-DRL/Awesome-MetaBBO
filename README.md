@@ -9,19 +9,16 @@
     - [2.1.2. Algorithm Configuration](#212-algorithm-configuration)
     - [2.1.3. Algorithm Generation](#213-algorithm-generation)
     - [2.1.4. Algorithm Imitation](#214-algorithm-imitation)
-    - [2.1.5. Others](#215-others)
-  - [2.2. MetaBBO-SL](#22-metabbo-with-supervised-learning-metabbo-sl)
-    - [2.2.1. Algorithm Selection](#221-operator-selection)
-    - [2.2.2. Algorithm Configuration](#222-parameter-contorl)
-    - [2.2.3. Algorithm Generation \& Parameter](#223-operator--parameter)
-    - [2.2.4. Algorithm Imitation](#224-symbolic)
-    - [2.2.5. Others](#225-others)
-  - [2.3. MetaBBO-NE](#23-metabbo-with-neuroevolution-metabbo-ne)
+  - [2.2. MetaBBO-SL](#22-metabbo-sl)
+    - [2.2.1. Algorithm Selection](#221-algorithm-selection)
+    - [2.2.2. Algorithm Configuration](#222-algorithm-configuration)
+    - [2.2.3. Algorithm Generation](#223-algorithm-generation)
+    - [2.2.4. Algorithm Imitation](#224-algorithm-imitation)
+  - [2.3. MetaBBO-NE](#23-metabbo-ne)
     - [2.3.1. Algorithm Selection](#231-operator-selection)
     - [2.3.2. Algorithm Configuration](#232-parameter-contorl)
     - [2.3.3. Algorithm Generation \& Parameter](#233-operator--parameter)
     - [2.3.4. Algorithm Imitation](#234-symbolic)
-    - [2.3.5. Others](#235-others)
   - [2.4. MetaBBO-ICL](#24-metabbo-with-in-context-learning )
     - [2.4.1. Algorithm Selection](#241-operator-selection)
     - [2.4.2. Algorithm Configuration](#242-parameter-contorl)
@@ -146,12 +143,44 @@
 #### 2.1.3 Algorithm Generation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
 |:-:|:-:|:-:|:-:|:-:|:-:|
+|ALDes|Zhao, Qi, et al. "[**Automated Metaheuristic Algorithm Design with Autoregressive Learning**](https://arxiv.org/abs/2405.03419)." arXiv preprint arXiv:2405.03419 (2024).|SOP|-|-|  |
 |SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://arxiv.org/abs/2402.02355)." The Twelfth International Conference on Learning Representations. 2024.|SOP|-|PPO|[SYMBOL](https://github.com/GMC-DRL/Symbol)|
+
 
 #### 2.1.4 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. 2022.|SOP|-|PPO| |
+
+### 2.2 MetaBBO-SL
+#### 2.2.1 Algorithm Selection
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|:-:|:-:|:-:|:-:|:-:|
+|ASF-ALLFV|Li Y, Liang J, Yu K, et al. "[**Adaptive local landscape feature vector for problem classification and algorithm selection**](https://www.sciencedirect.com/science/article/pii/S1568494622008006)". Applied Soft Computing, 2022, 131: 109751.|SOP|EAs,SI|  |
+|AR-BB|Tian Y, Peng S, Zhang X, et al. "[**A recommender system for metaheuristic algorithms for continuous optimization based on deep recurrent neural networks**](https://ieeexplore.ieee.org/abstract/document/9187549)". IEEE transactions on artificial intelligence (2020).|SOP|EAs,SI|   |
+|Meta-VRP|Gutierrez-Rodríguez A E, Conant-Pablos S E, Ortiz-Bayliss J C, et al. "[**Selecting meta-heuristics for solving vehicle routing problems with time windows via meta-learning**]". Expert Systems with Applications (2019).|CO|MOEA|    |
+|Meta-MOP|Tian Y, Peng S, Rodemann T, et al. "[**Automated selection of evolutionary multi-objective optimization algorithms**](https://ieeexplore.ieee.org/abstract/document/9003018)" 2019 IEEE Symposium Series on Computational Intelligence (SSCI). (2019).|MOOP|MOEA|   |
+|Meta-TSP|Kanda J Y, de Carvalho A C, Hruschka E R, et al. "[**Using meta-learning to recommend meta-heuristics for the traveling salesman problem**](https://ieeexplore.ieee.org/abstract/document/6146996)" 2011 10th international conference on machine learning and applications and workshops. (2011).|CO|GA|   |
+|Meta-QAP|Smith-Miles K A. "[**Towards insightful algorithm selection for optimisation using meta-learning concepts**](https://ieeexplore.ieee.org/abstract/document/4634391)" 2008 IEEE international joint conference on neural networks (IEEE world congress on computational intelligence). (2008).|CO|MMAS|   |
+
+#### 2.2.2 Algorithm Configuration
+
+#### 2.2.3 Algorithm Generation
+
+#### 2.2.4 Algorithm Imitation
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|:-:|:-:|:-:|:-:|:-:|
+|B2Opt|Li X, Wu K, Zhang X, et al. "[**B2Opt: Learning to Optimize Black-box Optimization with Little Budget**](https://arxiv.org/abs/2304.11787)". arXiv preprint arXiv:2304.11787, (2023).|SOP|GA|  |
+|GLHF|Li, Xiaobin, et al. "[**GLHF: General Learned Evolutionary Algorithm Via Hyper Functions**](https://arxiv.org/abs/2405.03728)." arXiv preprint arXiv:2405.03728 (2024).|SOP|DE| |
+|EvoTF|Lange, Robert Tjarko, Yingtao Tian, and Yujin Tang. "[**Evolution Transformer: In-Context Evolutionary Optimization**](https://arxiv.org/abs/2403.02985)." arXiv preprint arXiv:2403.02985 (2024).|SOP|-|[RobertTLange/evosax](https://github.com/RobertTLange/evosax)|
+|LEO-SL|Yu, Peiyu, et al. "[**Latent Energy-Based Odyssey: Black-Box Optimization via Expanded Exploration in the Energy-Based Latent Space**](https://arxiv.org/abs/2405.16730)." arXiv preprint arXiv:2405.16730 (2024).|SOP|-| |
+|RIBBO|Song, Lei, et al. "[**Reinforced In-Context Black-Box Optimization**](https://arxiv.org/abs/2402.17423)." arXiv preprint arXiv:2402.17423 (2024).|SOP|-|[RIBBO](https://github.com/songlei00/RIBBO)|
+|NAP|Maraval, Alexandre, et al. "[**End-to-end meta-Bayesian optimisation with transformer neural processes**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2561721d0ca69bab22b749cfc4f48f6c-Abstract-Conference.html)." Advances in Neural Information Processing Systems 36 (2024).|SOP|-| |
+|OptFormer|Chen, Yutian, et al. "[**Towards learning universal hyperparameter optimizers with transformers**](https://proceedings.neurips.cc/paper_files/paper/2022/hash/cf6501108fced72ee5c47e2151c4e153-Abstract-Conference.html)." Advances in Neural Information Processing Systems 35 (2022).|SOP|-|[Optformer](https://github.com/google-research/optformer)|
+|RNN-Opt|TV, Vishnu, et al. "[**Meta-learning for black-box optimization**](http://proceedings.mlr.press/v70/chen17e.html)." Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Cham: Springer International Publishing (2019).|SOP|-|   |
+|RNN-OI|Chen, Yutian, et al. "[**Learning to learn without gradient descent by gradient descent**](http://proceedings.mlr.press/v70/chen17e.html)." International Conference on Machine Learning. PMLR (2017).|SOP|-|   |
+
+
 
 
 
