@@ -204,7 +204,7 @@ If you want to update the list or have any question：
 #### 2.1.4 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. 2022.|SOP|-|PPO| |
+|MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. 2022.|SOP|-|PPO|-|
 
 <p align="right">
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
