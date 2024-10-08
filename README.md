@@ -195,14 +195,14 @@ If you want to update the list or have any question：
 |QFA|Sadhu A K, Konar A, Bhattacharjee T, et al. "[**Synergism of firefly algorithm and Q-learning for robot arm path planning**](https://www.sciencedirect.com/science/article/pii/S2210650217306776)". Swarm and Evolutionary Computation 2018.|SOP|FA|Tabular Q-learning|-|
 
 #### 2.1.3 Algorithm Generation
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |ALDes|Zhao, Qi, et al. "[**Automated Metaheuristic Algorithm Design with Autoregressive Learning**](https://arxiv.org/abs/2405.03419)." arXiv preprint arXiv:2405.03419 (2024).|SOP|-|-|-|
 |SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://arxiv.org/abs/2402.02355)." The Twelfth International Conference on Learning Representations. 2024.|SOP|-|PPO|[SYMBOL](https://github.com/GMC-DRL/Symbol)|
 
 
 #### 2.1.4 Algorithm Imitation
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. 2022.|SOP|-|PPO|-|
 
@@ -212,7 +212,7 @@ If you want to update the list or have any question：
 
 ### 2.2 💻MetaBBO-SL
 #### 2.2.1 Algorithm Selection
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |ASF-ALLFV|Li Y, Liang J, Yu K, et al. "[**Adaptive local landscape feature vector for problem classification and algorithm selection**](https://www.sciencedirect.com/science/article/pii/S1568494622008006)". Applied Soft Computing, 2022, 131: 109751.|SOP|EAs,SI|-|
 |AR-BB|Tian Y, Peng S, Zhang X, et al. "[**A recommender system for metaheuristic algorithms for continuous optimization based on deep recurrent neural networks**](https://ieeexplore.ieee.org/abstract/document/9187549)". IEEE transactions on artificial intelligence (2020).|SOP|EAs,SI|-|
@@ -226,7 +226,7 @@ If you want to update the list or have any question：
 #### 2.2.3 Algorithm Generation
 
 #### 2.2.4 Algorithm Imitation
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |B2Opt|Li X, Wu K, Zhang X, et al. "[**B2Opt: Learning to Optimize Black-box Optimization with Little Budget**](https://arxiv.org/abs/2304.11787)". arXiv preprint arXiv:2304.11787, (2023).|SOP|GA|-|
 |GLHF|Li, Xiaobin, et al. "[**GLHF: General Learned Evolutionary Algorithm Via Hyper Functions**](https://arxiv.org/abs/2405.03728)." arXiv preprint arXiv:2405.03728 (2024).|SOP|DE|-|
@@ -245,12 +245,12 @@ If you want to update the list or have any question：
 ### 2.3 🧬MetaBBO-NE
 #### 2.3.1 Algorithm Selection
 #### 2.3.2 Algorithm Configuration
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LES|Lange, Robert, et al. "[**Discovering evolution strategies via meta-black-box optimization**](https://iclr.cc/virtual/2023/poster/11005)." The Eleventh International Conference on Learning Representations. (2023).|SOP|CMA-ES|[LES](https://github.com/RobertTLange/evosax/blob/main/evosax/strategies/les.py)|
 #### 2.3.3 Algorithm Generation
 #### 2.3.4 Algorithm Imitation
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LGA|Lange, Robert, et al. "[**Discovering attention-based genetic algorithms via meta-black-box optimization**](https://dl.acm.org/doi/abs/10.1145/3583131.3590496)." Proceedings of the Genetic and Evolutionary Computation Conference. (2023).|SOP|GA|[LGA](https://github.com/RobertTLange/evosax/blob/main/evosax/strategies/lga.py)|
 |LTO-POMDP|Gomes H S, Léger B, Gagné C. "[**Meta learning black-box population-based optimizers**](https://arxiv.org/abs/2103.03526)". arXiv preprint arXiv:2103.03526 (2021).|SOP|-|[LTO-POMDP](https://github.com/optimization-toolbox/meta-learning-population-based-optimizers)|
@@ -261,12 +261,12 @@ If you want to update the list or have any question：
 
 ### 2.4 🧠MetaBBO-ICL
 #### 2.4.1 Algorithm Selection
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |AS-LLM|Wu, Xingyu, et al. "[**Large language model-enhanced algorithm selection: towards comprehensive algorithm representation**](https://ira.lib.polyu.edu.hk/handle/10397/108348)." International Joint Conference on Artificial Intelligence (2024).|SOP|-|-|
 #### 2.4.2 Algorithm Configuration
 #### 2.4.3 Algorithm Generation
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LLaMoCo|Ma, Zeyuan, et al. "[**LLaMoCo: Instruction Tuning of Large Language Models for Optimization Code Generation**](https://arxiv.org/abs/2403.01131)." arXiv preprint arXiv:2403.01131 (2024).|SOP|-|[LLaMoCo-722A](https://anonymous.4open.science/r/LLaMoCo-722A)|
 |LLaMEA|van Stein, Niki, and Thomas Bäck. "[**LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics**](https://arxiv.org/abs/2405.20132)." arXiv preprint arXiv:2405.20132 (2024).|SOP|-|-|
@@ -276,7 +276,7 @@ If you want to update the list or have any question：
 |AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
 |EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://www.researchgate.net/publication/380399749_Evolution_of_Heuristics_Towards_Efficient_Automatic_Algorithm_Design_Using_Large_Language_Model)." arXiv preprint arXiv:2309.03409 (2023).|CO|-|[nobodynobodypaper/EoH](https://github.com/nobodynobodypaper/EoH)|
 #### 2.4.4 Algorithm Imitation
-|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |EvoPrompt|Guo, Qingyan, et al. "[**Connecting large language models with evolutionary algorithms yields powerful prompt optimizers**](https://openreview.net/forum?id=ZG3RaNIsO8)." The Twelfth International Conference on Learning Representations (2024).|SOP|GA, DE|[beeevita/EvoPrompt](https://github.com/beeevita/EvoPrompt)|
 |CMOEA-LLM|Wang, Zeyi, et al. "[**Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization**](https://arxiv.org/abs/2405.05767)." arXiv preprint arXiv:2405.05767 (2024).|CMOP|-|-|
