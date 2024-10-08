@@ -25,7 +25,7 @@ MetaBBO is rapidly evolving, and this is by no means a comprehensive list of pap
 If you want to update the list or have any question：
 - 🌱Fork, Add, and Merge
 - ❓️Report an [issue](https://github.com/GMC-DRL/Awesome-MetaBBO/issues)
-- 📧Contact WenJie Qiu ([wukongqwj@gmail.com](wukongqwj@gmail.com))
+- 📧Contact WenJie Qiu ([wukongqwj@gmail.com](mailto:wukongqwj@gmail.com))
 
 😘Join us in perfecting the MetaBBO papers and their code sources together!
 
