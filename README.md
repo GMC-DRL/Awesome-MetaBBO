@@ -290,13 +290,13 @@ If you want to update the list or have any question：
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
 
-## 🔧3. Others
-### 📈3.1 Evaluation Indicator
+## 3.🔧 Others
+### 3.1📈 Evaluation Indicator
 |Indicator|Paper|
 |:-:|:-:|
 |ECDF|López-Ibáñez M, Vermetten D, Dreo J, et al. "[**Using the empirical attainment function for analyzing single-objective black-box optimization algorithms**](https://arxiv.org/abs/2404.02031)". arXiv preprint arXiv:2404.02031 (2024).|
 |EAF|da Fonseca V G, Fonseca C M. "[**A link between the multivariate cumulative distribution function and the hitting function for random closed sets**](https://www.sciencedirect.com/science/article/pii/S0167715202000469)". Statistics & probability letters (2002).|
-### 📊3.2 Landscape Feature
+### 3.2📊 Landscape Feature
 |Feature|Paper|
 |:-:|:-:|
 |NeurELA|Ma Z, Chen J, Guo H, et al. "[**Neural Exploratory Landscape Analysis**](https://arxiv.org/abs/2408.10672)". arXiv preprint arXiv:2408.10672 (2024).|
