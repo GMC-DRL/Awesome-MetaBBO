@@ -1,32 +1,56 @@
 # Awesome-MetaBBO
+## Content
 
-- [1. Survey Papers \& Benchmarks](#1-survey-papers--benchmarks)
-  - [1.1. Survey Papers](#11-survey-papers)
-  - [1.2. Benchmarks](#12-benchmarks)
-- [2. MetaBBO](#2-metabbo)
-  - [2.1. MetaBBO-RL](#21-metabbo-rl)
+- 📝 [1. Survey Papers & Benchmarks](#1-survey-papers--benchmarks)
+  - 📚[1.1. Survey Papers](#11-survey-papers)
+  - 🔍[1.2. Benchmarks](#12-benchmarks)
+
+- 🎯[2. MetaBBO](#2-metabbo)
+  <details>
+    <summary>🤖 2.1 MetaBBO-RL</summary>
+    
     - [2.1.1. Algorithm Selection](#211-algorithm-selection)
     - [2.1.2. Algorithm Configuration](#212-algorithm-configuration)
     - [2.1.3. Algorithm Generation](#213-algorithm-generation)
     - [2.1.4. Algorithm Imitation](#214-algorithm-imitation)
-  - [2.2. MetaBBO-SL](#22-metabbo-sl)
+  </details>
+
+  <details>
+    <summary>💻 2.2 MetaBBO-SL</summary>
+    
     - [2.2.1. Algorithm Selection](#221-algorithm-selection)
     - [2.2.2. Algorithm Configuration](#222-algorithm-configuration)
     - [2.2.3. Algorithm Generation](#223-algorithm-generation)
     - [2.2.4. Algorithm Imitation](#224-algorithm-imitation)
-  - [2.3. MetaBBO-NE](#23-metabbo-ne)
+
+  </details>
+
+  <details>
+    <summary>🧬 2.3 MetaBBO-NE</summary>
+    
     - [2.3.1. Algorithm Selection](#231-algorithm-selection)
     - [2.3.2. Algorithm Configuration](#232-algorithm-configuration)
     - [2.3.3. Algorithm Generation](#233-algorithm-generation)
     - [2.3.4. Algorithm Imitation](#234-algorithm-imitation)
-  - [2.4. MetaBBO-ICL](#24-metabbo-icl )
+
+  </details>
+
+  <details>
+    <summary>🧠 2.4 MetaBBO-ICL</summary>
+    
     - [2.4.1. Algorithm Selection](#241-algorithm-selection)
     - [2.4.2. Algorithm Configuration](#242-algorithm-configuration)
     - [2.4.3. Algorithm Generation](#243-algorithm-generation)
     - [2.4.4. Algorithm Imitation](#244-algorithm-imitation)
-  - [3. Others](#3-others)
-    - [3.1 Evaluation Indicator](#251-evaluation-indicator)
-    - [3.2 Landscape Feature](#252-landscape-feature)
+
+  </details>
+
+</details>
+
+  - 🔧[3. Others](#3-others)
+    - 📈[3.1 Evaluation Indicator](#31-evaluation-indicator)
+    - 📊[3.2 Landscape Feature](#32-landscape-feature)
+
 
 
 ## 1. Survey Papers \& Benchmarks
