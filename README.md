@@ -84,7 +84,7 @@
 **The complete list of BBOB series can be access at [numbbo](https://numbbo.github.io/workshops/bbob2023.html).*
 
 <p align="right">
-<a href="https://github.com/GMC-DRL/psc4MetaBBO/tree/main#useful-papers-and-source-codes-for-meta-black-box-optimization-metabbo">Back to Top</a>
+<a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
 
 
@@ -217,7 +217,22 @@
 |OPRO|Yang, Chengrun, et al. "[**Large language models as optimizers**](https://arxiv.org/abs/2309.03409)." arXiv preprint arXiv:2309.03409 (2023).|SOP|-|  |
 |LMEA|Liu, Shengcai, et al. "[**Large language models as evolutionary optimizers**](https://arxiv.org/abs/2310.19046)." arXiv preprint arXiv:2310.19046 (2023).|SOP|-|  |
 
-## Others
+## 3. Others
+### 3.1 Evaluation Indicator
+|Indicator|Paper|
+|:-:|:-:|
+|ECDF|López-Ibáñez M, Vermetten D, Dreo J, et al. "[**Using the empirical attainment function for analyzing single-objective black-box optimization algorithms**](https://arxiv.org/abs/2404.02031)". arXiv preprint arXiv:2404.02031 (2024).|
+|EAF|da Fonseca V G, Fonseca C M. "[**A link between the multivariate cumulative distribution function and the hitting function for random closed sets**](https://www.sciencedirect.com/science/article/pii/S0167715202000469)". Statistics & probability letters (2002).|
+### 3.2 Landscape Feature
+|Feature|Paper|
+|:-:|:-:|
+|DoE2Vec|van Stein B, Long F X, Frenzel M, et al. "[**Doe2vec: Deep-learning based features for exploratory landscape analysis**](https://dl.acm.org/doi/abs/10.1145/3583133.3590609)" Proceedings of the Companion Conference on Genetic and Evolutionary Computation. (2023).|
+|TransOpt|Cenikj G, Petelin G, Eftimov T. "[**TransOptAS: Transformer-Based Algorithm Selection for Single-Objective Optimization**](https://dl.acm.org/doi/abs/10.1145/3638530.3654191)" Proceedings of the Genetic and Evolutionary Computation Conference Companion. (2024).|
+|Deep ELA|Seiler M V, Kerschke P, Trautmann H. "[**Deep-ELA: Deep Exploratory Landscape Analysis with Self-Supervised Pretrained Transformers for Single-and Multi-Objective Continuous Optimization Problems**](https://arxiv.org/abs/2401.01192)". arXiv preprint arXiv:2401.01192 (2024).|
+|LvsC ELA|Seiler M, Škvorc U, Cenikj G, et al. "[**Learned Features vs. Classical ELA on Affine BBOB Functions**](https://link.springer.com/chapter/10.1007/978-3-031-70068-2_9)" International Conference on Parallel Problem Solving from Nature. Cham: Springer Nature Switzerland (2024).|
+|Comparable Feature|Long F X, Vermetten D, van Stein B, et al. "[**BBOB instance analysis: Landscape properties and algorithm performance across problem instances**](https://link.springer.com/chapter/10.1007/978-3-031-30229-9_25)" International Conference on the Applications of Evolutionary Computation (Part of EvoStar). Cham: Springer Nature Switzerland (2023).|
+|ISA|Smith-Miles K, Muñoz M A. "[**Instance space analysis for algorithm testing: Methodology and software tools**](https://dl.acm.org/doi/abs/10.1145/3572895)". ACM Computing Surveys 2023.|
+|ELA|Mersmann O, Bischl B, Trautmann H, et al. "[**Exploratory landscape analysis**](https://dl.acm.org/doi/abs/10.1145/2001576.2001690)" Proceedings of the 13th annual conference on Genetic and evolutionary computation. (2011).|
 
 
 
