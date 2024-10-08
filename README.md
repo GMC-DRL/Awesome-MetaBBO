@@ -15,19 +15,18 @@
     - [2.2.3. Algorithm Generation](#223-algorithm-generation)
     - [2.2.4. Algorithm Imitation](#224-algorithm-imitation)
   - [2.3. MetaBBO-NE](#23-metabbo-ne)
-    - [2.3.1. Algorithm Selection](#231-operator-selection)
-    - [2.3.2. Algorithm Configuration](#232-parameter-contorl)
-    - [2.3.3. Algorithm Generation \& Parameter](#233-operator--parameter)
-    - [2.3.4. Algorithm Imitation](#234-symbolic)
-  - [2.4. MetaBBO-ICL](#24-metabbo-with-in-context-learning )
-    - [2.4.1. Algorithm Selection](#241-operator-selection)
-    - [2.4.2. Algorithm Configuration](#242-parameter-contorl)
-    - [2.4.3. Algorithm Generation \& Parameter](#243-operator--parameter)
-    - [2.4.4. Algorithm Imitation](#244-symbolic)
-    - [2.4.5. Others](#245-others)
-  - [2.5. Others](#25-others)
-    - [2.5.1 Evaluation Indicator](#251-evaluation-indicator)
-    - [2.5.2 Landscape Feature](#252-landscape-feature)
+    - [2.3.1. Algorithm Selection](#231-algorithm-selection)
+    - [2.3.2. Algorithm Configuration](#232-algorithm-configuration)
+    - [2.3.3. Algorithm Generation](#233-algorithm-generation)
+    - [2.3.4. Algorithm Imitation](#234-algorithm-imitation)
+  - [2.4. MetaBBO-ICL](#24-metabbo-icl )
+    - [2.4.1. Algorithm Selection](#241-algorithm-selection)
+    - [2.4.2. Algorithm Configuration](#242-algorithm-configuration)
+    - [2.4.3. Algorithm Generation](#243-algorithm-generation)
+    - [2.4.4. Algorithm Imitation](#244-algorithm-imitation)
+  - [3. Others](#3-others)
+    - [3.1 Evaluation Indicator](#251-evaluation-indicator)
+    - [3.2 Landscape Feature](#252-landscape-feature)
 
 
 ## 1. Survey Papers \& Benchmarks
@@ -188,7 +187,37 @@
 |LES|Lange, Robert, et al. "[**Discovering evolution strategies via meta-black-box optimization**](https://iclr.cc/virtual/2023/poster/11005)." The Eleventh International Conference on Learning Representations. (2023).|SOP|CMA-ES|  |
 #### 2.3.3 Algorithm Generation
 #### 2.3.4 Algorithm Imitation
-|LGA|Lange, Robert, et al. "[**Discovering attention-based genetic algorithms via meta-black-box optimization**](https://dl.acm.org/doi/abs/10.1145/3583131.3590496)." Proceedings of the Genetic and Evolutionary Computation Conference. 2023.|SOP|GA|  |
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|:-:|:-:|:-:|:-:|:-:|
+|LGA|Lange, Robert, et al. "[**Discovering attention-based genetic algorithms via meta-black-box optimization**](https://dl.acm.org/doi/abs/10.1145/3583131.3590496)." Proceedings of the Genetic and Evolutionary Computation Conference. (2023).|SOP|GA|  |
+|LTO-POMDP|Gomes H S, Léger B, Gagné C. "[**Meta learning black-box population-based optimizers**](https://arxiv.org/abs/2103.03526)". arXiv preprint arXiv:2103.03526 (2021).|SOP|-| |
+
+### 2.4 MetaBBO-ICL
+#### 2.4.1 Algorithm Selection
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|:-:|:-:|:-:|:-:|:-:|
+|AS-LLM|Wu, Xingyu, et al. "[**Large language model-enhanced algorithm selection: towards comprehensive algorithm representation**](https://ira.lib.polyu.edu.hk/handle/10397/108348)." International Joint Conference on Artificial Intelligence (2024).|SOP|-| |
+#### 2.4.2 Algorithm Configuration
+#### 2.4.3 Algorithm Generation
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|:-:|:-:|:-:|:-:|:-:|
+|LLaMoCo|Ma, Zeyuan, et al. "[**LLaMoCo: Instruction Tuning of Large Language Models for Optimization Code Generation**](https://arxiv.org/abs/2403.01131)." arXiv preprint arXiv:2403.01131 (2024).|SOP|-|[LLaMoCo-722A](https://anonymous.4open.science/r/LLaMoCo-722A)|
+|LLaMEA|van Stein, Niki, and Thomas Bäck. "[**LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics**](https://arxiv.org/abs/2405.20132)." arXiv preprint arXiv:2405.20132 (2024).|SOP|-| |
+|LLMOPT|Huang, Yuxiao, et al. "[**Towards Next Era of Multi-objective Optimization: Large Language Models as Architects of Evolutionary Operators**](https://arxiv.org/abs/2406.08987)." arXiv preprint arXiv:2406.08987 (2024).|MOOP|-|  |
+|OptiMUS|AhmadiTeshnizi, Ali, Wenzhi Gao, and Madeleine Udell. "[**OptiMUS: Optimization Modeling Using mip Solvers and large language models**](https://arxiv.org/abs/2310.06116)." arXiv preprint arXiv:2310.06116 (2023).|MILP|-|[teshnizi/OptiMUS](https://github.com/teshnizi/OptiMUS)|
+|AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-| |
+|EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://www.researchgate.net/publication/380399749_Evolution_of_Heuristics_Towards_Efficient_Automatic_Algorithm_Design_Using_Large_Language_Model)." arXiv preprint arXiv:2309.03409 (2023).|CO|-| |
+#### 2.4.4 Algorithm Imitation
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
+|:-:|:-:|:-:|:-:|:-:|
+|CMOEA-LLM|Wang, Zeyi, et al. "[**Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization**](https://arxiv.org/abs/2405.05767)." arXiv preprint arXiv:2405.05767 (2024).|CMOP|   |   |
+|LEO|Brahmachary, Shuvayan, et al. "[**Large Language Model-Based Evolutionary Optimizer: Reasoning with elitism**](https://arxiv.org/abs/2403.02054)." arXiv preprint arXiv:2403.02054 (2024).|SOP|   |   |
+|EvoLLM|Lange, Robert Tjarko, Yingtao Tian, and Yujin Tang. "[**Large Language Models As Evolution Strategies**](https://arxiv.org/abs/2402.18381)." arXiv preprint arXiv:2402.18381 (2024).|SOP|  |   |
+|MOEA/D-LLM|Liu, Fei, et al. "[**Large language model for multi-objective evolutionary optimization**](https://arxiv.org/abs/2310.12541)." arXiv preprint arXiv:2310.12541 (2023).|MOOP|MOEA/D|   |
+|OPRO|Yang, Chengrun, et al. "[**Large language models as optimizers**](https://arxiv.org/abs/2309.03409)." arXiv preprint arXiv:2309.03409 (2023).|SOP|-|  |
+|LMEA|Liu, Shengcai, et al. "[**Large language models as evolutionary optimizers**](https://arxiv.org/abs/2310.19046)." arXiv preprint arXiv:2310.19046 (2023).|SOP|-|  |
+
+## Others
 
 
 
