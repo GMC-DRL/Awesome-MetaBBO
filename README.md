@@ -53,9 +53,9 @@
 
 
 
-## 1. Survey Papers \& Benchmarks
+## 1. 📝Survey Papers \& Benchmarks
 
-### 1.1. Survey Papers
+### 1.1. 📚Survey Papers
 
 |Paper|
 |:-:|
@@ -67,7 +67,7 @@
 |Chernigovskaya, Maria, Andrey Kharitonov, and Klaus Turowski. "[**A Recent Publications Survey on Reinforcement Learning for Selecting Parameters of Meta-Heuristic and Machine Learning Algorithms**](https://www.scitepress.org/Papers/2023/119543/119543.pdf)." CLOSER. (2023).
 |Drugan, Madalina M. "[**Reinforcement learning versus evolutionary computation: A survey on hybrid algorithms**](https://www.sciencedirect.com/science/article/abs/pii/S2210650217302766)." Swarm and Evolutionary Computation. (2019).
 
-### 1.2. Benchmarks
+### 1.2. 🔍Benchmarks
 
 |Benchmark|Paper|Code Source|Optimization Type|
 |:-:|:-:|:-:|:-:|
@@ -112,9 +112,9 @@
 </p>
 
 
-## 2. MetaBBO
+## 2. 🎯MetaBBO
 
-### 2.1 MetaBBO-RL
+### 2.1 🤖MetaBBO-RL
 #### 2.1.1 Algorithm Selection
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Source|
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -179,7 +179,7 @@
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
 
-### 2.2 MetaBBO-SL
+### 2.2 💻MetaBBO-SL
 #### 2.2.1 Algorithm Selection
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
 |:-:|:-:|:-:|:-:|:-:|
@@ -211,7 +211,7 @@
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
 
-### 2.3 MetaBBO-NE
+### 2.3 🧬MetaBBO-NE
 #### 2.3.1 Algorithm Selection
 #### 2.3.2 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
@@ -228,7 +228,7 @@
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
 
-### 2.4 MetaBBO-ICL
+### 2.4 🧠MetaBBO-ICL
 #### 2.4.1 Algorithm Selection
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Source|
 |:-:|:-:|:-:|:-:|:-:|
@@ -257,13 +257,13 @@
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
 
-## 3. Others
-### 3.1 Evaluation Indicator
+## 🔧3. Others
+### 📈3.1 Evaluation Indicator
 |Indicator|Paper|
 |:-:|:-:|
 |ECDF|López-Ibáñez M, Vermetten D, Dreo J, et al. "[**Using the empirical attainment function for analyzing single-objective black-box optimization algorithms**](https://arxiv.org/abs/2404.02031)". arXiv preprint arXiv:2404.02031 (2024).|
 |EAF|da Fonseca V G, Fonseca C M. "[**A link between the multivariate cumulative distribution function and the hitting function for random closed sets**](https://www.sciencedirect.com/science/article/pii/S0167715202000469)". Statistics & probability letters (2002).|
-### 3.2 Landscape Feature
+### 📊3.2 Landscape Feature
 |Feature|Paper|
 |:-:|:-:|
 |DoE2Vec|van Stein B, Long F X, Frenzel M, et al. "[**Doe2vec: Deep-learning based features for exploratory landscape analysis**](https://dl.acm.org/doi/abs/10.1145/3583133.3590609)" Proceedings of the Companion Conference on Genetic and Evolutionary Computation. (2023).|
