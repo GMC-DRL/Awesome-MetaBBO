@@ -1,4 +1,13 @@
 # Awesome-MetaBBO
+This is a collection of MetaBBO papers and their corresponding code sources. We first classify them by learning paradigm, followed by different autonomous algorithm designs. All papers are sorted by year.
+## What is MetaBBO?
+Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the optimization performance of existing BBO methods. By utilizing Meta Learning, the reliance on expert-level knowledge decreases, highlighting the trend toward autonomous algorithm design in BBO.
+
+![Dynamic Chart](https://quickchart.io/chart?c={type:'bar',data:{labels:['2014','2015','2016','2017','2018','2019','2020','2021','2022','2023'],datasets:[{label:'Paper Counts',data:[2,3,1,5,3,4,9,12,15,26,46]}]}})
+
+We warmly invite you to read our survey on MetaBBO, "[Toward Autonomous Algorithm Design: A Survey and Empirical Evaluation of Meta-Black-Box-Optimization]()," for more detailed insights into MetaBBO!
+
+
 ## Content
 
 - 📝 [1. Survey Papers & Benchmarks](#1-survey-papers--benchmarks)
