@@ -1,4 +1,7 @@
-# Awesome-MetaBBO
+<div style="text-align: center;">
+    <img src="fig/MetaBBO.bmp" width="400">
+</div>
+
 This is a collection of [MetaBBO papers and their corresponding code sources](#content). We first classify them by learning paradigm, followed by different autonomous algorithm designs. All papers are sorted by year.
 ## What is MetaBBO?
 Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the optimization performance of existing BBO methods. By utilizing Meta Learning, the reliance on expert-level knowledge decreases, highlighting the trend toward autonomous algorithm design in BBO.
