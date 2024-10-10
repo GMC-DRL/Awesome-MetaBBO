@@ -49,19 +49,16 @@ If you want to update the list or have any question：
     <summary>💻 2.2 MetaBBO-SL</summary>
     
     - [2.2.1. Algorithm Selection](#221-algorithm-selection)
-    - [2.2.2. Algorithm Configuration](#222-algorithm-configuration)
-    - [2.2.3. Algorithm Generation](#223-algorithm-generation)
-    - [2.2.4. Algorithm Imitation](#224-algorithm-imitation)
+    - [2.2.2. Algorithm Imitation](#222-algorithm-imitation)
 
   </details>
 
   <details>
     <summary>🧬 2.3 MetaBBO-NE</summary>
     
-    - [2.3.1. Algorithm Selection](#231-algorithm-selection)
-    - [2.3.2. Algorithm Configuration](#232-algorithm-configuration)
-    - [2.3.3. Algorithm Generation](#233-algorithm-generation)
-    - [2.3.4. Algorithm Imitation](#234-algorithm-imitation)
+
+    - [2.3.1. Algorithm Configuration](#231-algorithm-configuration)
+    - [2.3.2. Algorithm Imitation](#232-algorithm-imitation)
 
   </details>
 
@@ -69,9 +66,8 @@ If you want to update the list or have any question：
     <summary>🧠 2.4 MetaBBO-ICL</summary>
     
     - [2.4.1. Algorithm Selection](#241-algorithm-selection)
-    - [2.4.2. Algorithm Configuration](#242-algorithm-configuration)
-    - [2.4.3. Algorithm Generation](#243-algorithm-generation)
-    - [2.4.4. Algorithm Imitation](#244-algorithm-imitation)
+    - [2.4.2. Algorithm Generation](#242-algorithm-generation)
+    - [2.4.3. Algorithm Imitation](#243-algorithm-imitation)
 
   </details>
 
@@ -221,11 +217,9 @@ If you want to update the list or have any question：
 |Meta-TSP|Kanda J Y, de Carvalho A C, Hruschka E R, et al. "[**Using meta-learning to recommend meta-heuristics for the traveling salesman problem**](https://ieeexplore.ieee.org/abstract/document/6146996)" 2011 10th international conference on machine learning and applications and workshops. (2011).|CO|GA|-|
 |Meta-QAP|Smith-Miles K A. "[**Towards insightful algorithm selection for optimisation using meta-learning concepts**](https://ieeexplore.ieee.org/abstract/document/4634391)" 2008 IEEE international joint conference on neural networks (IEEE world congress on computational intelligence). (2008).|CO|MMAS|-|
 
-#### 2.2.2 Algorithm Configuration
 
-#### 2.2.3 Algorithm Generation
 
-#### 2.2.4 Algorithm Imitation
+#### 2.2.2 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |B2Opt|Li X, Wu K, Zhang X, et al. "[**B2Opt: Learning to Optimize Black-box Optimization with Little Budget**](https://arxiv.org/abs/2304.11787)". arXiv preprint arXiv:2304.11787, (2023).|SOP|GA|-|
@@ -243,13 +237,13 @@ If you want to update the list or have any question：
 </p>
 
 ### 2.3 🧬MetaBBO-NE
-#### 2.3.1 Algorithm Selection
-#### 2.3.2 Algorithm Configuration
+
+#### 2.3.1 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LES|Lange, Robert, et al. "[**Discovering evolution strategies via meta-black-box optimization**](https://iclr.cc/virtual/2023/poster/11005)." The Eleventh International Conference on Learning Representations. (2023).|SOP|CMA-ES|[LES](https://github.com/RobertTLange/evosax/blob/main/evosax/strategies/les.py)|
-#### 2.3.3 Algorithm Generation
-#### 2.3.4 Algorithm Imitation
+
+#### 2.3.2 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LGA|Lange, Robert, et al. "[**Discovering attention-based genetic algorithms via meta-black-box optimization**](https://dl.acm.org/doi/abs/10.1145/3583131.3590496)." Proceedings of the Genetic and Evolutionary Computation Conference. (2023).|SOP|GA|[LGA](https://github.com/RobertTLange/evosax/blob/main/evosax/strategies/lga.py)|
@@ -264,8 +258,8 @@ If you want to update the list or have any question：
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |AS-LLM|Wu, Xingyu, et al. "[**Large language model-enhanced algorithm selection: towards comprehensive algorithm representation**](https://ira.lib.polyu.edu.hk/handle/10397/108348)." International Joint Conference on Artificial Intelligence (2024).|SOP|-|-|
-#### 2.4.2 Algorithm Configuration
-#### 2.4.3 Algorithm Generation
+
+#### 2.4.2 Algorithm Generation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LLaMoCo|Ma, Zeyuan, et al. "[**LLaMoCo: Instruction Tuning of Large Language Models for Optimization Code Generation**](https://arxiv.org/abs/2403.01131)." arXiv preprint arXiv:2403.01131 (2024).|SOP|-|[LLaMoCo-722A](https://anonymous.4open.science/r/LLaMoCo-722A)|
@@ -275,7 +269,7 @@ If you want to update the list or have any question：
 |OptiMUS|AhmadiTeshnizi, Ali, Wenzhi Gao, and Madeleine Udell. "[**OptiMUS: Optimization Modeling Using mip Solvers and large language models**](https://arxiv.org/abs/2310.06116)." arXiv preprint arXiv:2310.06116 (2023).|MILP|-|[teshnizi/OptiMUS](https://github.com/teshnizi/OptiMUS)|
 |AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
 |EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://www.researchgate.net/publication/380399749_Evolution_of_Heuristics_Towards_Efficient_Automatic_Algorithm_Design_Using_Large_Language_Model)." arXiv preprint arXiv:2309.03409 (2023).|CO|-|[nobodynobodypaper/EoH](https://github.com/nobodynobodypaper/EoH)|
-#### 2.4.4 Algorithm Imitation
+#### 2.4.3 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |EvoPrompt|Guo, Qingyan, et al. "[**Connecting large language models with evolutionary algorithms yields powerful prompt optimizers**](https://openreview.net/forum?id=ZG3RaNIsO8)." The Twelfth International Conference on Learning Representations (2024).|SOP|GA, DE|[beeevita/EvoPrompt](https://github.com/beeevita/EvoPrompt)|
