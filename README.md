@@ -49,7 +49,8 @@ If you want to update the list or have any question：
     <summary>💻 2.2 MetaBBO-SL</summary>
     
     - [2.2.1. Algorithm Selection](#221-algorithm-selection)
-    - [2.2.2. Algorithm Imitation](#222-algorithm-imitation)
+    - [2.2.2. Algorithm Configuration](#222-algorithm-configuration)
+    - [2.2.3. Algorithm Imitation](#223-algorithm-imitation)
 
   </details>
 
@@ -152,7 +153,8 @@ If you want to update the list or have any question：
 
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|UES-CMAES-RL|Bolufé-Röhler A, Xu B. "[**Deep Reinforcement Learning for Smart Restarts in Exploration-Only Exploitation-Only Hybrid Metaheuristics Metaheuristics International Conference**](https://link.springer.com/chapter/10.1007/978-3-031-62922-8_2)" 2024.|SOP|UES-CMAES|DQN|-|
+|HF|Pei J, Liu J, Mei Y. "[**Learning from Offline and Online Experiences: A Hybrid Adaptive Operator Selection Framework**](https://dl.acm.org/doi/abs/10.1145/3638529.3654062)" Proceedings of the Genetic and Evolutionary Computation Conference. (2024).|SOP, CO|DE|DDQN|-|
+|UES-CMAES-RL|Bolufé-Röhler A, Xu B. "[**Deep Reinforcement Learning for Smart Restarts in Exploration-Only Exploitation-Only Hybrid Metaheuristics Metaheuristics International Conference**](https://link.springer.com/chapter/10.1007/978-3-031-62922-8_2)" (2024).|SOP|UES-CMAES|DQN|-|
 |MSoRL|Wang X, Wang F, He Q, et al. "[**A multi-swarm optimizer with a reinforcement learning mechanism for large-scale optimization**](https://www.sciencedirect.com/science/article/pii/S2210650224000191)". Swarm and Evolutionary Computation (2024).|LSOP|PSO|Tabular Q-learning|-|
 |MRL-MOEA|Wang, Jing, et al. "[**A Novel Multi-State Reinforcement Learning-Based Multi-Objective Evolutionary Algorithm**](https://www.sciencedirect.com/science/article/pii/S0020025524013112)." Information Sciences (2024).|MOOP|MOEA|Tabular Q-learning|-|
 |RLEMMO|Lian, Hongqiao, et al. "[**RLEMMO: Evolutionary Multimodal Optimization Assisted By Deep Reinforcement Learning**](https://arxiv.org/abs/2404.08242)." arXiv preprint arXiv:2404.08242 (2024).|MMOP|DE|PPO|-|
@@ -161,7 +163,12 @@ If you want to update the list or have any question：
 |RLNS|Hong, Jiale, Bo Shen, and Anqi Pan. "[**A reinforcement learning-based neighborhood search operator for multi-modal optimization and its applications**](https://www.sciencedirect.com/science/article/pii/S0957417424000150)." Expert Systems with Applications (2024).|MMOP|SSA,PSO,EO|Tabular Q-learning|-|
 |RLMODE|Yu, Xiaobing, et al. "[**Reinforcement learning-based differential evolution algorithm for constrained multi-objective optimization problems**](https://www.sciencedirect.com/science/article/pii/S0952197623020018)." Engineering Applications of Artificial Intelligence (2024).|MOOP|DE|Tabular Q-learning|-|
 |GLEET|Ma, Zeyuan, et al. "[**Auto-configuring Exploration-Exploitation Tradeoff in Evolutionary Computation via Deep Reinforcement Learning**](https://arxiv.org/abs/2404.08239)." arXiv preprint arXiv:2404.08239 (2024).|SOP|DE,PSO|PPO|-|
+|RLHDE|Peng L, Yuan Z, Dai G, et al. "[**Reinforcement learning-based hybrid differential evolution for global optimization of interplanetary trajectory design**](https://www.sciencedirect.com/science/article/pii/S2210650223001244)". Swarm and Evolutionary Computation, (2023).|SOP|HLSHADE|Tabular Q-learning|-|
+|AMODE-DRL|Li T, Meng Y, Tang L. "[**Scheduling of continuous annealing with a multi-objective differential evolution algorithm based on deep reinforcement learning**](https://ieeexplore.ieee.org/abstract/document/10049395)". IEEE Transactions on Automation Science and Engineering 2023.|MOOP|MODE|DDQN+DDPG|-|
+|MARLABC|Zhao F, Wang Z, Wang L, et al. "[**A multi-agent reinforcement learning driven artificial bee colony algorithm with the central controller**](https://www.sciencedirect.com/science/article/pii/S0957417423001732)". Expert Systems with Applications (2023).|SOP|ABC|Tabular Q-learning|-|
+|CEDE-DRL|Hu Z, Gong W, Pedrycz W, et al. "[**Deep reinforcement learning assisted co-evolutionary differential evolution for constrained optimization**](https://www.sciencedirect.com/science/article/pii/S2210650223001608)". Swarm and Evolutionary Computation (2023).|COP|CO-DE|DQN|-|
 |RLDMDE|Yang, Qingyong, et al. "[**Dynamic multi-strategy integrated differential evolution algorithm based on reinforcement learning for optimization problems**](https://link.springer.com/article/10.1007/s40747-023-01243-9)." Complex & Intelligent Systems (2023).|SOP|DE|Tabular Q-learning|-|
+|RLMMDEE|Han Y, Peng H, Mei C, et al. "[**Multi-strategy multi-objective differential evolutionary algorithm with reinforcement learning**]()". Knowledge-Based Systems (2023).|MOOP|MOEA|Tabular Q-learning|-|
 |MPSORL|Meng, Xiaoding, Hecheng Li, and Anshan Chen. "[**Multi-strategy self-learning particle swarm optimization algorithm based on reinforcement learning**](http://www.aimspress.com/aimspress-data/mbe/2023/5/PDF/mbe-20-05-373.pdf)." Mathematical Biosciences and Engineering (2023).|SOP|PSO|Tabular Q-learning|-|
 |IRLMFO|Zhao F, Wang Q, Wang L. "[**An inverse reinforcement learning framework with the Q-learning mechanism for the metaheuristic algorithm**](https://www.sciencedirect.com/science/article/pii/S0950705123001181)". Knowledge-Based Systems (2023).|SOP|MFO|IRL+Tabual Q-learning|-|
 |RLAM|Yin, Shiyuan, et al. "[**Reinforcement-learning-based parameter adaptation method for particle swarm optimization**](https://link.springer.com/article/10.1007/s40747-023-01012-8)." Complex & Intelligent Systems (2023).|SOP|PSO|DDPG|-|
@@ -185,23 +192,23 @@ If you want to update the list or have any question：
 |MARLwCMA|Sallam, Karam M., et al. "[**Evolutionary framework with reinforcement learning-based mutation adaptation**](https://ieeexplore.ieee.org/abstract/document/9239320/)." IEEE Access 8 (2020).|SOP|DE|Tabular Q-learning|-|
 |QLPSO|Xu Y, Pi D. "[**A reinforcement learning-based communication topology in particle swarm optimization**](https://link.springer.com/article/10.1007/s00521-019-04527-9)." Neural Computing and Applications 2020.|SOP|PSO|Tabular Q-learning|-|
 |LTO|Shala G, Biedenkapp A, Awad N, et al. "[**Learning step-size adaptation in CMA-ES**](https://link.springer.com/chapter/10.1007/978-3-030-58112-1_48)." Parallel Problem Solving from Nature–PPSN XVI: 16th International Conference (2020).|SOP|CMA-ES|GPS|-|
-|NSGA-RL|Kaur A, Kumar K. "[**A reinforcement learning based evolutionary multi-objective optimization algorithm for spectrum allocation in cognitive radio networks**](https://www.sciencedirect.com/science/article/pii/S1874490720302731)". Physical Communication (2020).|MOOP|NSGA-II|Tabular Q-learning|-|
 |DE-DDQN|Sharma, Mudita, et al. "[**Deep reinforcement learning based parameter control in differential evolution**](https://dl.acm.org/doi/abs/10.1145/3321707.3321813)." Proceedings of the Genetic and Evolutionary Computation Conference (2019).|SOP|DE|Tabular Q-learning|[mudita11/DE-DDQN](https://github.com/mudita11/DE-DDQN)|
 |QL-M/S-OPSO|Liu Y, Lu H, Cheng S, et al. "[**An adaptive online parameter control algorithm for particle swarm optimization based on reinforcement learning**](https://ieeexplore.ieee.org/abstract/document/8790035)" 2019 IEEE congress on evolutionary computation (2019).|MO/SOP|PSO|Tabular Q-learning|-|
-|RL-MOEA/D|Ning W, Guo B, Guo X, et al. "[**Reinforcement learning aided parameter control in multi-objective evolutionary algorithm based on decomposition**](https://link.springer.com/article/10.1007/s13748-018-0155-7)". Progress in Artificial Intelligence 2018.|MOOP|MOEA/D|SARSA|-|
-|QFA|Sadhu A K, Konar A, Bhattacharjee T, et al. "[**Synergism of firefly algorithm and Q-learning for robot arm path planning**](https://www.sciencedirect.com/science/article/pii/S2210650217306776)". Swarm and Evolutionary Computation 2018.|SOP|FA|Tabular Q-learning|-|
+|RL-MOEA/D|Ning W, Guo B, Guo X, et al. "[**Reinforcement learning aided parameter control in multi-objective evolutionary algorithm based on decomposition**](https://link.springer.com/article/10.1007/s13748-018-0155-7)". Progress in Artificial Intelligence (2018).|MOOP|MOEA/D|SARSA|-|
+|QFA|Sadhu A K, Konar A, Bhattacharjee T, et al. "[**Synergism of firefly algorithm and Q-learning for robot arm path planning**](https://www.sciencedirect.com/science/article/pii/S2210650217306776)". Swarm and Evolutionary Computation (2018).|SOP|FA|Tabular Q-learning|-|
+|RLMPSO|Samma H, Lim C P, Saleh J M. "[**A new reinforcement learning-based memetic particle swarm optimizer**](https://www.sciencedirect.com/science/article/pii/S1568494616000132)". Applied Soft Computing (2016).|SOP|PSO|Tabular Q-learning|-|
 
 #### 2.1.3 Algorithm Generation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |ALDes|Zhao, Qi, et al. "[**Automated Metaheuristic Algorithm Design with Autoregressive Learning**](https://arxiv.org/abs/2405.03419)." arXiv preprint arXiv:2405.03419 (2024).|SOP|-|-|-|
-|SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://arxiv.org/abs/2402.02355)." The Twelfth International Conference on Learning Representations. 2024.|SOP|-|PPO|[SYMBOL](https://github.com/GMC-DRL/Symbol)|
+|SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://arxiv.org/abs/2402.02355)." The Twelfth International Conference on Learning Representations. (2024).|SOP|-|PPO|[SYMBOL](https://github.com/GMC-DRL/Symbol)|
 
 
 #### 2.1.4 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. 2022.|SOP|-|PPO|-|
+|MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. (2022).|SOP|-|PPO|-|
 
 <p align="right">
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
@@ -211,16 +218,20 @@ If you want to update the list or have any question：
 #### 2.2.1 Algorithm Selection
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
-|ASF-ALLFV|Li Y, Liang J, Yu K, et al. "[**Adaptive local landscape feature vector for problem classification and algorithm selection**](https://www.sciencedirect.com/science/article/pii/S1568494622008006)". Applied Soft Computing, 2022, 131: 109751.|SOP|EAs,SI|-|
+|ASF-ALLFV|Li Y, Liang J, Yu K, et al. "[**Adaptive local landscape feature vector for problem classification and algorithm selection**](https://www.sciencedirect.com/science/article/pii/S1568494622008006)". Applied Soft Computing, (2022).|SOP|EAs,SI|-|
 |AR-BB|Tian Y, Peng S, Zhang X, et al. "[**A recommender system for metaheuristic algorithms for continuous optimization based on deep recurrent neural networks**](https://ieeexplore.ieee.org/abstract/document/9187549)". IEEE transactions on artificial intelligence (2020).|SOP|EAs,SI|-|
 |Meta-VRP|Gutierrez-Rodríguez A E, Conant-Pablos S E, Ortiz-Bayliss J C, et al. "[**Selecting meta-heuristics for solving vehicle routing problems with time windows via meta-learning**]". Expert Systems with Applications (2019).|CO|MOEA|-|
 |Meta-MOP|Tian Y, Peng S, Rodemann T, et al. "[**Automated selection of evolutionary multi-objective optimization algorithms**](https://ieeexplore.ieee.org/abstract/document/9003018)" 2019 IEEE Symposium Series on Computational Intelligence. (2019).|MOOP|MOEA|-|
 |Meta-TSP|Kanda J Y, de Carvalho A C, Hruschka E R, et al. "[**Using meta-learning to recommend meta-heuristics for the traveling salesman problem**](https://ieeexplore.ieee.org/abstract/document/6146996)" 2011 10th international conference on machine learning and applications and workshops. (2011).|CO|GA|-|
 |Meta-QAP|Smith-Miles K A. "[**Towards insightful algorithm selection for optimisation using meta-learning concepts**](https://ieeexplore.ieee.org/abstract/document/4634391)" 2008 IEEE international joint conference on neural networks. (2008).|CO|MMAS|-|
 
+#### 2.2.2 Algorithm Configuration
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
+|:-:|:-:|:-:|:-:|:-:|
+|ada-smoDE|Zhang H, Shi J, Sun J, et al. "[**A Gradient-based Method for Differential Evolution Parameter Control by Smoothing**](https://dl.acm.org/doi/abs/10.1145/3638530.3654185)" Proceedings of the Genetic and Evolutionary Computation Conference Companion. (2024).|SOP|DE|-|
 
 
-#### 2.2.2 Algorithm Imitation
+#### 2.2.3 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |B2Opt|Li X, Wu K, Zhang X, et al. "[**B2Opt: Learning to Optimize Black-box Optimization with Little Budget**](https://arxiv.org/abs/2304.11787)". arXiv preprint arXiv:2304.11787, (2023).|SOP|GA|-|
@@ -264,6 +275,8 @@ If you want to update the list or have any question：
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LLaMoCo|Ma, Zeyuan, et al. "[**LLaMoCo: Instruction Tuning of Large Language Models for Optimization Code Generation**](https://arxiv.org/abs/2403.01131)." arXiv preprint arXiv:2403.01131 (2024).|SOP|-|[LLaMoCo-722A](https://anonymous.4open.science/r/LLaMoCo-722A)|
+|LLMOPT|Huang Y, Wu S, Zhang W, et al. "[**Autonomous Multi-Objective Optimization Using Large Language Model**](https://ennetix.cloud/?_=%2Fabs%2F2406.08987%23T54G%2B%2F%2FWDHwWKle2kogeMes%3D)". arXiv preprint arXiv:2406.08987, (2024).|MOOP|-|-|
+|MTDE-L2T|Wu S H, Huang Y, Wu X, et al. "[**Learning to Transfer for Evolutionary Multitasking**](https://arxiv.org/abs/2406.14359)". arXiv preprint arXiv:2406.14359, 2024.|MTOP|-|-|
 |LLaMEA|van Stein, Niki, and Thomas Bäck. "[**LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics**](https://arxiv.org/abs/2405.20132)." arXiv preprint arXiv:2405.20132 (2024).|SOP|-|-|
 |LLMOPT|Huang, Yuxiao, et al. "[**Towards Next Era of Multi-objective Optimization: Large Language Models as Architects of Evolutionary Operators**](https://arxiv.org/abs/2406.08987)." arXiv preprint arXiv:2406.08987 (2024).|MOOP|-|-|
 |Evoprompting|Chen, Angelica, David Dohan, and David So. "[**Evoprompting: Language models for code-level neural architecture search**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/184c1e18d00d7752805324da48ad25be-Abstract-Conference.html)." Advances in Neural Information Processing Systems 36 (2024).|Sop|-|-|
@@ -274,7 +287,7 @@ If you want to update the list or have any question：
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |EvoPrompt|Guo, Qingyan, et al. "[**Connecting large language models with evolutionary algorithms yields powerful prompt optimizers**](https://openreview.net/forum?id=ZG3RaNIsO8)." The Twelfth International Conference on Learning Representations (2024).|SOP|GA, DE|[beeevita/EvoPrompt](https://github.com/beeevita/EvoPrompt)|
-|CMOEA-LLM|Wang, Zeyi, et al. "[**Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization**](https://arxiv.org/abs/2405.05767)." arXiv preprint arXiv:2405.05767 (2024).|CMOP|-|-|
+|CCMO-LLM|Wang, Zeyi, et al. "[**Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization**](https://arxiv.org/abs/2405.05767)." arXiv preprint arXiv:2405.05767 (2024).|CMOP|-|-|
 |LEO|Brahmachary, Shuvayan, et al. "[**Large Language Model-Based Evolutionary Optimizer: Reasoning with elitism**](https://arxiv.org/abs/2403.02054)." arXiv preprint arXiv:2403.02054 (2024).|SOP|-|-|
 |EvoLLM|Lange, Robert Tjarko, Yingtao Tian, and Yujin Tang. "[**Large Language Models As Evolution Strategies**](https://arxiv.org/abs/2402.18381)." arXiv preprint arXiv:2402.18381 (2024).|SOP|-|-|
 |MOEA/D-LLM|Liu, Fei, et al. "[**Large language model for multi-objective evolutionary optimization**](https://arxiv.org/abs/2310.12541)." arXiv preprint arXiv:2310.12541 (2023).|MOOP|MOEA/D|[MOEA/D-LLM](https://github.com/FeiLiu36/LLM4MOEA)|
