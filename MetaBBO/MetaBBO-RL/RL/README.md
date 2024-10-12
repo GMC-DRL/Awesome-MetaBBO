@@ -61,6 +61,46 @@ $$
 
 Here, $\phi(s, a)$ is a feature vector that represents the relationship between state $s$ and action $a$, allowing a complex state-action relationship to be mapped into a numerical vector.
 
-Then it's corresponing policy gradient is:
+The corresponding policy gradient is:
 
+$$
+    \nabla_{\theta} \log \pi_{\theta}(a \mid s)=\phi(s, a)-\sum_{a^{\prime} \in A} \phi\left(s, a^{\prime}\right) \pi_{\theta}(a \mid s)
+$$
 
+This can be interpreted as “the observed feature vector minus the average feature vector of all possible actions.” In other words, if the features of a particular action differ significantly from the average feature vector of all possible actions, the gradient update will increase the probability of selecting that action. (The average feature vector is the baseline).
+
+- For continous action spaces, the Gaussian policy is a commonly used approach:
+
+$$
+     \pi_{\theta}(a \mid s)=\frac{1}{\sqrt{2 \pi} \sigma_{\theta}} e^{-\frac{a-\mu_{\theta}}{2 \sigma_{\theta}^{2}}}
+$$
+
+Here, $\mu_{\theta}$ and $\sigma_{\theta}$ represent the mean and variance of the actions, respectively.
+
+The corresponding policy gradient is:
+
+$$
+    \nabla_{\theta} \log \left(\pi_{\theta}(a \mid s)\right)=\frac{\left(a-\mu_{\theta}\right) \phi(s)}{\sigma_{\theta}^{2}}
+$$
+
+This means that when high rewards are present, actions that deviate significantly from the mean trigger a stronger update signal. Since the probabilities must sum to 1, increasing the probability of certain trajectories also requires decreasing the probability of others.
+
+Let's come back to our goal :  $$E_{\tau \sim \pi_\theta} [\nabla_\theta \log P(\tau ; \theta) R(\tau)] = \sum_{\tau} P(\tau ; \theta) \nabla_\theta \log P(\tau ; \theta)R(\tau)$$. The calculation here also requires summing all possible trajectories ($$\sum_{\tau}$$), which is difficult to handle in actual RL problems. We need to use trajectory samples for gradient approximation, as shown below:
+
+$$
+    \nabla_{\theta} J(\theta) \approx \frac{1}{m} \sum_{i=1}^{m} \nabla_{\theta} \log P\left(\tau^{(i)} ; \theta\right) R\left(\tau^{(i)}\right) =\frac{1}{m}     \sum_{i=1}^{m}\left(\sum_{t^{(i)}=0}^{T^{(i)}} \nabla_{\theta} \log \pi_{\theta}\left(a_{t^{(i)}} \mid s_{t^{(i)}}\right)\right) R\left(\tau^{(i)}\right)
+$$
+
+However, using the reward for the entire trajectory may lead to high variance because it cannot finely reflect the direct impact of a specific action on the final result. Therefore, we usually want to find a way to evaluate the effect of each step in more detail. To reduce variance and handle each time step more finely, we introduce an immediate reward $$R(s_t, a_t)$$ for each step to replace the reward of the entire trajectory $$\tau$$, which makes the formula become:
+
+$$
+    \nabla_{\theta} J(\theta) \approx \frac{1}{n} \sum_{i=1}^{n} \nabla_{\theta} \log \pi_{\theta}\left(a_{t(i)} \mid s_{t(i)}\right) R\left(t^{(i)}\right)
+$$
+
+Here, $$n=\sum_{i=1}^{m} T^{(i)}$$. Now the expression is completely computable, so we can update the rule using policy gradients:
+
+$$
+ \theta \leftarrow \theta+\alpha \nabla_{\theta} J(\theta)
+ $$
+
+This allows us to adjust and optimize $\theta$, iterating continuously toward the optimal policy $\pi_{\theta^{*}}$.
