@@ -1,13 +1,19 @@
 <div align=center>
-<img src="fig/MetaBBO.bmp" width="400">
+<img src="fig/MetaBBO.bmp" width="500">
 </div>
 
 
-📦️This is a collection of [MetaBBO papers and their corresponding code resources](#content).
+📦️This is a collection of [MetaBBO papers and their corresponding code resources](#content) (👈️Click here to go directly to the paper list).
+## 🤔What is BBO?
 
-We first classify them by learning paradigm, followed by different autonomous algorithm design tasks. All papers are sorted by year of publication.
+<p>
+    <img src="fig/BBO_workflow.png" alt="image description" align="left" style="margin-right: 10px;" width="400">
+    Black Box Optimization (BBO) refers to a class of optimization problems where the objective function is defined as $f: X \rightarrow \mathbb{R}$. The term "Black-Box" means that, although we can evaluate $f(X)$ for any $X$ within the search domain, we have no access to additional information such as the mathematical expression, gradients, or any structural details. The only available data comes from the input $X$ and the corresponding output $f(X)$. BBO problems can be categorized into continuous optimization (COP), discrete optimization (DOP), single-objective optimization (SOP), multi-objective optimization (MOOP), and multi-modal optimization (MMOP), depending on the specific characteristics of the problem.
+</p>
+
+
 ## 🤨What is MetaBBO?
-🔥Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the optimization performance of existing BBO methods. 🚀By utilizing Meta Learning, the reliance on expert-level knowledge is reduced, highlighting the trend toward autonomous algorithm design in BBO.
+🔥Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the optimization performance of existing BBO optimizers. 🚀By utilizing Meta Learning, the reliance on expert-level knowledge is reduced, highlighting the trend toward autonomous algorithm design in BBO.
 
 <!--使用quickchart来生成动态图表，方便随时调整-->
 <div align=center>
@@ -17,19 +23,37 @@ We first classify them by learning paradigm, followed by different autonomous al
 📄We warmly invite you to read our survey on MetaBBO, "[Toward Autonomous Algorithm Design: A Survey and Empirical Evaluation of Meta-Black-Box-Optimization]()," for more detailed insights into MetaBBO!
 
 ## 😁Contact Us
+<div align=center>
+<img src="fig/gmc.png" width="300">
+</div>
 
-**Please feel free to contact us—any suggestions are welcome!**
+👨‍💻👩‍💻We are a research team mainly focus on the Evolutionary Computing, Black Box Optimization and Meta Black Box Optimization. 
 
-MetaBBO is rapidly evolving, and this is by no means a comprehensive list of papers.
+Here is our [homepage](https://gmc-drl.github.io/) and [github](https://github.com/GMC-DRL). **🥰🥰🥰Please feel free to contact us—any suggestions are welcome!**
+
+✨️MetaBBO is rapidly evolving, and this is by no means a comprehensive list of papers.
 
 If you want to update the list or have any question：
 - 🌱Fork, Add, and Merge
 - ❓️Report an [issue](https://github.com/GMC-DRL/Awesome-MetaBBO/issues)
 - 📧Contact WenJie Qiu ([wukongqwj@gmail.com](mailto:wukongqwj@gmail.com))
 
-😘Join us in perfecting the MetaBBO papers and their code sources together!
+😘Join us in perfecting the MetaBBO papers and their code resources together!
+
+## 🌍️Useful Github Repository
+👍️👍️👍️Many outstanding teams have developed excellent GitHub repositories for the Evolutionary Computing community, and we are pleased to share them here.
+|Repository|About|
+|:-:|:-:|
+|[LLM4Opt](https://github.com/FeiLiu36/LLM4Opt)|A Collection on Large Language Models for Optimization|
+|[pypop7](https://github.com/Wukong-SCUT/pypop)|A Pure-Python Library for POPulation-based Black-Box Optimization|
+|[EvoX](https://github.com/EMI-Group/evox)|Distributed GPU-Accelerated Framework for Evolutionary Computation. Comprehensive Library of Evolutionary Algorithms & Benchmark Problems|
+|[evosax](https://github.com/RobertTLange/evosax)|Evolution Strategies in JAX |
+
 
 # Content
+We first classify them by learning paradigm, followed by different autonomous algorithm design tasks. 
+
+All papers are sorted by year of publication.
 
 - 📝 [1. Survey Papers & Benchmarks](#1-survey-papers--benchmarks)
   - 📚[1.1. Survey Papers](#11-survey-papers)
@@ -37,7 +61,7 @@ If you want to update the list or have any question：
 
 - 🎯[2. MetaBBO](#2-metabbo)
   <details>
-    <summary>🤖 2.1 MetaBBO-RL</summary>
+    <summary>🤖 2.1 MetaBBO via Reinforcement Learning</summary>
     
     - [2.1.1. Algorithm Selection](#211-algorithm-selection)
     - [2.1.2. Algorithm Configuration](#212-algorithm-configuration)
@@ -46,7 +70,7 @@ If you want to update the list or have any question：
   </details>
 
   <details>
-    <summary>💻 2.2 MetaBBO-SL</summary>
+    <summary>💻 2.2 MetaBBO via Supervised Learning</summary>
     
     - [2.2.1. Algorithm Selection](#221-algorithm-selection)
     - [2.2.2. Algorithm Configuration](#222-algorithm-configuration)
@@ -55,7 +79,7 @@ If you want to update the list or have any question：
   </details>
 
   <details>
-    <summary>🧬 2.3 MetaBBO-NE</summary>
+    <summary>🧬 2.3 MetaBBO via Neuroevolution</summary>
     
 
     - [2.3.1. Algorithm Configuration](#231-algorithm-configuration)
@@ -64,7 +88,7 @@ If you want to update the list or have any question：
   </details>
 
   <details>
-    <summary>🧠 2.4 MetaBBO-ICL</summary>
+    <summary>🧠 2.4 MetaBBO via In-Context Learning</summary>
     
     - [2.4.1. Algorithm Selection](#241-algorithm-selection)
     - [2.4.2. Algorithm Generation](#242-algorithm-generation)
