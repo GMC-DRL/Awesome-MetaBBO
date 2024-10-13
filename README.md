@@ -27,7 +27,7 @@
 <img src="fig/gmc.png" width="300">
 </div>
 
-👨‍💻👩‍💻We are a research team mainly focus on the Evolutionary Computing, Black Box Optimization and Meta Black Box Optimization. 
+👨‍💻👩‍💻We are a research team mainly focus on the Evolutionary Computation, Black Box Optimization and Meta Black Box Optimization. 
 
 Here is our [homepage](https://gmc-drl.github.io/) and [github](https://github.com/GMC-DRL). **🥰🥰🥰Please feel free to contact us—any suggestions are welcome!**
 
@@ -41,7 +41,7 @@ If you want to update the list or have any question：
 😘Join us in perfecting the MetaBBO papers and their code resources together!
 
 ## 🌍️Useful Github Repository
-👍️👍️👍️Many outstanding teams have developed excellent GitHub repositories for the Evolutionary Computing community, and we are pleased to share them here.
+👍️👍️👍️Many outstanding teams have developed excellent GitHub repositories for the Evolutionary Computation community, and we are pleased to share them here.
 |Repository|About|
 |:-:|:-:|
 |[LLM4Opt](https://github.com/FeiLiu36/LLM4Opt)|A Collection on Large Language Models for Optimization|
