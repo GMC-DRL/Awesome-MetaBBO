@@ -248,6 +248,7 @@ All papers are sorted by year of publication.
 #### 2.2.1 Algorithm Selection
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|TransOptAS|Cenikj G, Petelin G, Eftimov T. "[**TransOptAS: Transformer-Based Algorithm Selection for Single-Objective Optimization**]()" Proceedings of the Genetic and Evolutionary Computation Conference Companion (2024).|SOP|EAs,SI|-|
 |ASF-ALLFV|Li Y, Liang J, Yu K, et al. "[**Adaptive local landscape feature vector for problem classification and algorithm selection**](https://www.sciencedirect.com/science/article/pii/S1568494622008006)". Applied Soft Computing, (2022).|SOP|EAs,SI|-|
 |AR-BB|Tian Y, Peng S, Zhang X, et al. "[**A recommender system for metaheuristic algorithms for continuous optimization based on deep recurrent neural networks**](https://ieeexplore.ieee.org/abstract/document/9187549)". IEEE transactions on artificial intelligence (2020).|SOP|EAs,SI|-|
 |Meta-VRP|Gutierrez-Rodríguez A E, Conant-Pablos S E, Ortiz-Bayliss J C, et al. "[**Selecting meta-heuristics for solving vehicle routing problems with time windows via meta-learning**](https://www.sciencedirect.com/science/article/pii/S0957417418306857)". Expert Systems with Applications (2019).|CO|MOEA|-|
