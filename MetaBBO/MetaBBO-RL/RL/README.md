@@ -104,3 +104,8 @@ $$
  $$
 
 This allows us to adjust and optimize $\theta$, iterating continuously toward the optimal policy $\pi_{\theta^{*}}$.
+
+#### Classic policy gradient RL
+|Algorithm|Paper|
+|:-:|:-:|
+|[PPO](https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main/MetaBBO/MetaBBO-RL/RL/PPO)|Schulman J, Wolski F, Dhariwal P, et al. "[**Proximal policy optimization algorithms**](https://arxiv.org/abs/1707.06347)". arXiv preprint arXiv:1707.06347 (2017).|
