@@ -3,7 +3,7 @@
 </div>
 
 
-📦️This is a collection of [MetaBBO papers and their corresponding code resources](#content) (👈️Click here to go directly to the paper list).
+📦️This is a collection of [MetaBBO papers and their corresponding code resources](#content) (👈️Click here for the paper list).
 ## 🤔What is BBO?
 
 <p>
@@ -20,7 +20,7 @@
 <img src="https://quickchart.io/chart?c=%7Btype%3A%27bar%27%2Cdata%3A%7Blabels%3A%5B%272014%27%2C%272015%27%2C%272016%27%2C%272017%27%2C%272018%27%2C%272019%27%2C%272020%27%2C%272021%27%2C%272022%27%2C%272023%27%2C%272024%27%5D%2Cdatasets%3A%5B%7Btype%3A%27bar%27%2Clabel%3A%27paper%20counts%20per%20year%27%2CbackgroundColor%3A%27rgba(255%2C%2099%2C%20132%2C%200.2)%27%2CborderColor%3A%27rgba(255%2C%2099%2C%20132%2C%201)%27%2CborderWidth%3A1%2Cdata%3A%5B2%2C3%2C1%2C5%2C3%2C4%2C9%2C12%2C15%2C26%2C46%5D%7D%2C%7Btype%3A%27line%27%2Clabel%3A%27development%20trend%27%2Cfill%3Afalse%2CborderColor%3A%27black%27%2CborderWidth%3A2%2CpointStyle%3A%27circle%27%2CpointRadius%3A5%2CpointBackgroundColor%3A%27black%27%2Cdata%3A%5B2%2C3%2C1%2C5%2C3%2C4%2C9%2C12%2C15%2C26%2C46%5D%7D%5D%7D%2Coptions%3A%7Bscales%3A%7By%3A%7BbeginAtZero%3Atrue%7D%7D%7D%7D" width="500"/>
 </div>
 
-📄We warmly invite you to read our survey on MetaBBO, "[Toward Autonomous Algorithm Design: A Survey and Empirical Evaluation of Meta-Black-Box-Optimization]()," for more detailed insights into MetaBBO!
+🚩We warmly invite you to read our survey on MetaBBO, "[Toward Autonomous Algorithm Design: A Survey and Empirical Evaluation of Meta-Black-Box-Optimization]()," for more detailed insights into MetaBBO!
 
 ## 😁Contact Us
 <div align=center>
@@ -110,13 +110,18 @@ All papers are sorted by year of publication.
 
 |Paper|
 |:-:|
+|Wu X, Wu S, Wu J, et al. "[**Evolutionary computation in the era of large language model: Survey and roadmap**](https://arxiv.org/abs/2401.10034)". arXiv preprint arXiv:2401.10034 (2024).|
 |Li P, Hao J, Tang H, et al. "[**Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey on Hybrid Algorithms**](https://ieeexplore.ieee.org/abstract/document/10637292). IEEE Transactions on Evolutionary Computation. (2024).
 |Song Y, Wu Y, Guo Y, et al. "[**Reinforcement learning-assisted evolutionary algorithm: A survey and research opportunities**](https://www.sciencedirect.com/science/article/pii/S2210650224000506). Swarm and Evolutionary Computation. (2024).
 |Nikolikj, Ana, et al. "[**Quantifying Individual and Joint Module Impact in Modular Optimization Frameworks**](https://arxiv.org/abs/2405.11964)." 2024 IEEE Congress on Evolutionary Computation. (2024).
 |Qian, Chao, Ke Xue, and Ren-Jian Wang. "[**Quality-Diversity Algorithms Can Provably Be Helpful for Optimization**](https://arxiv.org/abs/2401.10539)." arXiv preprint arXiv:2401.10539. (2024).
 |Huang, Beichen, et al. "[**Exploring the True Potential: Evaluating the Black-box Optimization Capability of Large Language Models**](https://arxiv.org/abs/2404.06290)." arXiv preprint arXiv:2404.06290. (2024).
+|Lehman J, Gordon J, Jain S, et al. "[**Evolution through large models**](https://link.springer.com/chapter/10.1007/978-981-99-3814-8_11)" Handbook of Evolutionary Machine Learning. (2023).|
+|Zhao Q, Duan Q, Yan B, et al. "[**Automated design of metaheuristic algorithms: A survey**](https://arxiv.org/pdf/2303.06532)". arXiv preprint arXiv:2303.06532 (2023).|
 |Chernigovskaya, Maria, Andrey Kharitonov, and Klaus Turowski. "[**A Recent Publications Survey on Reinforcement Learning for Selecting Parameters of Meta-Heuristic and Machine Learning Algorithms**](https://www.scitepress.org/Papers/2023/119543/119543.pdf)." CLOSER. (2023).
 |Drugan, Madalina M. "[**Reinforcement learning versus evolutionary computation: A survey on hybrid algorithms**](https://www.sciencedirect.com/science/article/abs/pii/S2210650217302766)." Swarm and Evolutionary Computation. (2019).
+|Stützle T, López-Ibáñez M. "[**Automated design of metaheuristic algorithms**](https://link.springer.com/chapter/10.1007/978-3-319-91086-4_17)". Handbook of metaheuristics (2019).|
+
 
 ### 1.2. 🔍Benchmarks
 
