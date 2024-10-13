@@ -13,7 +13,7 @@
 
 
 ## 🤨What is MetaBBO?
-🔥Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the optimization performance of existing BBO optimizers. 🚀By utilizing Meta Learning, the reliance on expert-level knowledge is reduced, highlighting the trend toward autonomous algorithm design in BBO.
+🔥Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the performance of existing BBO optimizers. 🚀By utilizing Meta Learning, the reliance on expert-level knowledge is reduced, highlighting the trend toward autonomous algorithm design in BBO.
 
 <!--使用quickchart来生成动态图表，方便随时调整-->
 <div align=center>
