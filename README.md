@@ -186,7 +186,7 @@ All papers are sorted by year of publication.
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |HF|Pei J, Liu J, Mei Y. "[**Learning from Offline and Online Experiences: A Hybrid Adaptive Operator Selection Framework**](https://dl.acm.org/doi/abs/10.1145/3638529.3654062)" Proceedings of the Genetic and Evolutionary Computation Conference. (2024).|SOP, CO|DE|DDQN|-|
 |UES-CMAES-RL|Bolufé-Röhler A, Xu B. "[**Deep Reinforcement Learning for Smart Restarts in Exploration-Only Exploitation-Only Hybrid Metaheuristics Metaheuristics International Conference**](https://link.springer.com/chapter/10.1007/978-3-031-62922-8_2)" (2024).|SOP|UES-CMAES|DQN|-|
-|MTDE-L2T|Wu S H, Huang Y, Wu X, et al. "[**Learning to Transfer for Evolutionary Multitasking**](https://arxiv.org/abs/2406.14359)". arXiv preprint arXiv:2406.14359, (2024).|MTOP|EC|PPO|-｜
+|MTDE-L2T|Wu S H, Huang Y, Wu X, et al. "[**Learning to Transfer for Evolutionary Multitasking**](https://arxiv.org/abs/2406.14359)". arXiv preprint arXiv:2406.14359, (2024).|MTOP|EC|PPO|-|
 |MSoRL|Wang X, Wang F, He Q, et al. "[**A multi-swarm optimizer with a reinforcement learning mechanism for large-scale optimization**](https://www.sciencedirect.com/science/article/pii/S2210650224000191)". Swarm and Evolutionary Computation (2024).|LSOP|PSO|Tabular Q-learning|-|
 |MRL-MOEA|Wang, Jing, et al. "[**A Novel Multi-State Reinforcement Learning-Based Multi-Objective Evolutionary Algorithm**](https://www.sciencedirect.com/science/article/pii/S0020025524013112)." Information Sciences (2024).|MOOP|MOEA|Tabular Q-learning|-|
 |RLEMMO|Lian, Hongqiao, et al. "[**RLEMMO: Evolutionary Multimodal Optimization Assisted By Deep Reinforcement Learning**](https://arxiv.org/abs/2404.08242)." arXiv preprint arXiv:2404.08242 (2024).|MMOP|DE|PPO|-|
