@@ -118,7 +118,8 @@ All papers are sorted by year of publication.
 |Qian, Chao, Ke Xue, and Ren-Jian Wang. "[**Quality-Diversity Algorithms Can Provably Be Helpful for Optimization**](https://arxiv.org/abs/2401.10539)." arXiv preprint arXiv:2401.10539. (2024).
 |Huang, Beichen, et al. "[**Exploring the True Potential: Evaluating the Black-box Optimization Capability of Large Language Models**](https://arxiv.org/abs/2404.06290)." arXiv preprint arXiv:2404.06290. (2024).
 |Zhao Q, Duan Q, Yan B, et al. "[**Automated design of metaheuristic algorithms: A survey**](https://arxiv.org/pdf/2303.06532)". arXiv preprint arXiv:2303.06532 (2023).|
-|Chernigovskaya, Maria, Andrey Kharitonov, and Klaus Turowski. "[**A Recent Publications Survey on Reinforcement Learning for Selecting Parameters of Meta-Heuristic and Machine Learning Algorithms**](https://www.scitepress.org/Papers/2023/119543/119543.pdf)." CLOSER. (2023).
+|Chernigovskaya, Maria, Andrey Kharitonov, and Klaus Turowski. "[**A Recent Publications Survey on Reinforcement Learning for Selecting Parameters of Meta-Heuristic and Machine Learning Algorithms**](https://www.scitepress.org/Papers/2023/119543/119543.pdf)." CLOSER. (2023).|
+|Banzhaf W, Machado P. "[**Fundamentals of Evolutionary Machine Learning**](https://link.springer.com/chapter/10.1007/978-981-99-3814-8_1)" Handbook of Evolutionary Machine Learning. Singapore (2023).|
 |Drugan, Madalina M. "[**Reinforcement learning versus evolutionary computation: A survey on hybrid algorithms**](https://www.sciencedirect.com/science/article/abs/pii/S2210650217302766)." Swarm and Evolutionary Computation. (2019).
 |Stützle T, López-Ibáñez M. "[**Automated design of metaheuristic algorithms**](https://link.springer.com/chapter/10.1007/978-3-319-91086-4_17)". Handbook of metaheuristics (2019).|
 
