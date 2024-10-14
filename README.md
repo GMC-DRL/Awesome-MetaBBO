@@ -44,6 +44,7 @@ If you want to update the list or have any question：
 👍️👍️👍️Many outstanding teams have developed excellent GitHub repositories for the Evolutionary Computation community, and we are pleased to share them here.
 |Repository|About|
 |:-:|:-:|
+|[MetaBox](https://github.com/GMC-DRL/MetaBox)|MetaBox: A Benchmark Platform for Meta-Black-Box Optimization with Reinforcement Learning|
 |[LLM4Opt](https://github.com/FeiLiu36/LLM4Opt)|A Collection on Large Language Models for Optimization|
 |[pypop7](https://github.com/Wukong-SCUT/pypop)|A Pure-Python Library for POPulation-based Black-Box Optimization|
 |[EvoX](https://github.com/EMI-Group/evox)|Distributed GPU-Accelerated Framework for Evolutionary Computation. Comprehensive Library of Evolutionary Algorithms & Benchmark Problems|
