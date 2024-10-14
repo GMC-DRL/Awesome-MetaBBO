@@ -312,7 +312,7 @@ All papers are sorted by year of publication.
 |OptiMUS|AhmadiTeshnizi, Ali, Wenzhi Gao, and Madeleine Udell. "[**OptiMUS: Optimization Modeling Using mip Solvers and large language models**](https://arxiv.org/abs/2310.06116)." arXiv preprint arXiv:2310.06116 (2023).|MILP|-|[teshnizi/OptiMUS](https://github.com/teshnizi/OptiMUS)|
 |AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|COP|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
 |EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://www.researchgate.net/publication/380399749_Evolution_of_Heuristics_Towards_Efficient_Automatic_Algorithm_Design_Using_Large_Language_Model)." arXiv preprint arXiv:2309.03409 (2023).|COP|-|[nobodynobodypaper/EoH](https://github.com/nobodynobodypaper/EoH)|
-|LLMs-GP|Lehman J, Gordon J, Jain S, et al. "[**Evolution through large models**](https://link.springer.com/chapter/10.1007/978-981-99-3814-8_11)" Handbook of Evolutionary Machine Learning. (2023).|-|-|-|
+|ELM|Lehman J, Gordon J, Jain S, et al. "[**Evolution through large models**](https://link.springer.com/chapter/10.1007/978-981-99-3814-8_11)" Handbook of Evolutionary Machine Learning. (2023).|-|-|-|
 #### 2.4.3 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
