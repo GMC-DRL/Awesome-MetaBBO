@@ -253,10 +253,10 @@ All papers are sorted by year of publication.
 |TransOptAS|Cenikj G, Petelin G, Eftimov T. "[**TransOptAS: Transformer-Based Algorithm Selection for Single-Objective Optimization**](https://dl.acm.org/doi/abs/10.1145/3638530.3654191)" Proceedings of the Genetic and Evolutionary Computation Conference Companion (2024).|SOP|EAs,SI|-|
 |ASF-ALLFV|Li Y, Liang J, Yu K, et al. "[**Adaptive local landscape feature vector for problem classification and algorithm selection**](https://www.sciencedirect.com/science/article/pii/S1568494622008006)". Applied Soft Computing, (2022).|SOP|EAs,SI|-|
 |AR-BB|Tian Y, Peng S, Zhang X, et al. "[**A recommender system for metaheuristic algorithms for continuous optimization based on deep recurrent neural networks**](https://ieeexplore.ieee.org/abstract/document/9187549)". IEEE transactions on artificial intelligence (2020).|SOP|EAs,SI|-|
-|Meta-VRP|Gutierrez-Rodríguez A E, Conant-Pablos S E, Ortiz-Bayliss J C, et al. "[**Selecting meta-heuristics for solving vehicle routing problems with time windows via meta-learning**](https://www.sciencedirect.com/science/article/pii/S0957417418306857)". Expert Systems with Applications (2019).|COP|MOEA|-|
+|Meta-VRP|Gutierrez-Rodríguez A E, Conant-Pablos S E, Ortiz-Bayliss J C, et al. "[**Selecting meta-heuristics for solving vehicle routing problems with time windows via meta-learning**](https://www.sciencedirect.com/science/article/pii/S0957417418306857)". Expert Systems with Applications (2019).|CO|MOEA|-|
 |Meta-MOP|Tian Y, Peng S, Rodemann T, et al. "[**Automated selection of evolutionary multi-objective optimization algorithms**](https://ieeexplore.ieee.org/abstract/document/9003018)" 2019 IEEE Symposium Series on Computational Intelligence. (2019).|MOOP|MOEA|-|
-|Meta-TSP|Kanda J Y, de Carvalho A C, Hruschka E R, et al. "[**Using meta-learning to recommend meta-heuristics for the traveling salesman problem**](https://ieeexplore.ieee.org/abstract/document/6146996)" 2011 10th international conference on machine learning and applications and workshops. (2011).|COP|GA|-|
-|Meta-QAP|Smith-Miles K A. "[**Towards insightful algorithm selection for optimisation using meta-learning concepts**](https://ieeexplore.ieee.org/abstract/document/4634391)" 2008 IEEE international joint conference on neural networks. (2008).|COP|MMAS|-|
+|Meta-TSP|Kanda J Y, de Carvalho A C, Hruschka E R, et al. "[**Using meta-learning to recommend meta-heuristics for the traveling salesman problem**](https://ieeexplore.ieee.org/abstract/document/6146996)" 2011 10th international conference on machine learning and applications and workshops. (2011).|CO|GA|-|
+|Meta-QAP|Smith-Miles K A. "[**Towards insightful algorithm selection for optimisation using meta-learning concepts**](https://ieeexplore.ieee.org/abstract/document/4634391)" 2008 IEEE international joint conference on neural networks. (2008).|CO|MMAS|-|
 
 #### 2.2.2 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
@@ -306,13 +306,15 @@ All papers are sorted by year of publication.
 #### 2.4.2 Algorithm Generation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|FunSearch|Romera-Paredes B, Barekatain M, Novikov A, et al. "[**Mathematical discoveries from program search with large language models**](https://www.nature.com/articles/s41586-023-06924-6)". Nature, (2024).|CO|-|-|
+|LLM-EPS|Zhang R, Liu F, Lin X, et al. "[**Understanding the Importance of Evolutionary Search in Automated Heuristic Design with Large Language Models**](https://link.springer.com/chapter/10.1007/978-3-031-70068-2_12)"International Conference on Parallel Problem Solving from Nature. (2024).|-|-|-|
 |LLaMoCo|Ma, Zeyuan, et al. "[**LLaMoCo: Instruction Tuning of Large Language Models for Optimization Code Generation**](https://arxiv.org/abs/2403.01131)." arXiv preprint arXiv:2403.01131 (2024).|SOP|-|[LLaMoCo-722A](https://anonymous.4open.science/r/LLaMoCo-722A)|
 |LLaMEA|van Stein, Niki, and Thomas Bäck. "[**LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics**](https://arxiv.org/abs/2405.20132)." arXiv preprint arXiv:2405.20132 (2024).|SOP|-|-|
 |Evoprompting|Chen, Angelica, David Dohan, and David So. "[**Evoprompting: Language models for code-level neural architecture search**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/184c1e18d00d7752805324da48ad25be-Abstract-Conference.html)." Advances in Neural Information Processing Systems 36 (2024).|SOP|-|-|
 |OptiMUS|AhmadiTeshnizi, Ali, Wenzhi Gao, and Madeleine Udell. "[**OptiMUS: Optimization Modeling Using mip Solvers and large language models**](https://arxiv.org/abs/2310.06116)." arXiv preprint arXiv:2310.06116 (2023).|MILP|-|[teshnizi/OptiMUS](https://github.com/teshnizi/OptiMUS)|
-|AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|COP|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
-|EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://openreview.net/forum?id=BwAkaxqiLB)." arXiv preprint arXiv:2309.03409 (2023).|COP|-|[nobodynobodypaper/EoH](https://github.com/nobodynobodypaper/EoH)|
-|ELM|Lehman J, Gordon J, Jain S, et al. "[**Evolution through large models**](https://link.springer.com/chapter/10.1007/978-981-99-3814-8_11)" Handbook of Evolutionary Machine Learning. (2023).|-|-|-|
+|AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
+|EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://openreview.net/forum?id=BwAkaxqiLB)." arXiv preprint arXiv:2309.03409 (2023).|CO|-|[nobodynobodypaper/EoH](https://github.com/nobodynobodypaper/EoH)|
+
 #### 2.4.3 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
@@ -324,7 +326,8 @@ All papers are sorted by year of publication.
 |MOEA/D-LLM|Liu, Fei, et al. "[**Large language model for multi-objective evolutionary optimization**](https://arxiv.org/abs/2310.12541)." arXiv preprint arXiv:2310.12541 (2023).|MOOP|MOEA/D|[MOEA/D-LLM](https://github.com/FeiLiu36/LLM4MOEA)|
 |OPRO|Yang, Chengrun, et al. "[**Large language models as optimizers**](https://arxiv.org/abs/2309.03409)." arXiv preprint arXiv:2309.03409 (2023).|SOP|-|[OPRO](https://github.com/google-deepmind/opro)|
 |LMEA|Liu, Shengcai, et al. "[**Large language models as evolutionary optimizers**](https://arxiv.org/abs/2310.19046)." arXiv preprint arXiv:2310.19046 (2023).|SOP|-|-|
-
+|ELM|Lehman J, Gordon J, Jain S, et al. "[**Evolution through large models**](https://link.springer.com/chapter/10.1007/978-981-99-3814-8_11)" Handbook of Evolutionary Machine Learning. (2023).|CO|-|-|
+|ToLLM|Guo P F, Chen Y H, Tsai Y D, et al. "[**Towards optimizing with large language models**](https://arxiv.org/abs/2310.05204)". arXiv preprint arXiv:2310.05204, (2023).|SOP|-|-|
 <p align="right">
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
