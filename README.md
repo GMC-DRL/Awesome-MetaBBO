@@ -8,7 +8,7 @@
 
 <p>
     <img src="fig/BBO_workflow.png" alt="image description" align="left" style="margin-right: 10px;" width="400">
-    Black Box Optimization (BBO) refers to a class of optimization problems where the objective function is defined as $f: X \rightarrow \mathbb{R}$. The term "Black-Box" means that, although we can evaluate $f(X)$ for any $X$ within the search domain, we have no access to additional information such as the mathematical expression, gradients, or any structural details. The only available data comes from the input $X$ and the corresponding output $f(X)$. BBO problems can be categorized into continuous optimization (COP), discrete optimization (DOP), single-objective optimization (SOP), multi-objective optimization (MOOP), and multi-modal optimization (MMOP), depending on the specific characteristics of the problem.
+    Black Box Optimization (BBO) refers to a class of optimization problems where the objective function is defined as $f: X \rightarrow \mathbb{R}$. The term "Black-Box" means that, although we can evaluate $f(X)$ for any $X$ within the search domain, we have no access to additional information such as the mathematical expression, gradients, or any structural details. The only available data comes from the input $X$ and the corresponding output $f(X)$. BBO problems can be categorized into combinatorial optimization (CO), continuous optimization (COP), discrete optimization (DOP), single-objective optimization (SOP), multi-objective optimization (MOOP), and multi-modal optimization (MMOP), depending on the specific characteristics of the problem.
 </p>
 
 
