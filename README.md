@@ -112,6 +112,10 @@ All papers are sorted by year of publication.
 |Paper|
 |:-:|
 |Wu X, Wu S, Wu J, et al. "[**Evolutionary computation in the era of large language model: Survey and roadmap**](https://arxiv.org/abs/2401.10034)". arXiv preprint arXiv:2401.10034 (2024).|
+|Song, Xingyou, et al. "[**Position: Leverage Foundational Models for Black-Box Optimization**](https://openreview.net/forum?id=ea2MgKn3sV)" Forty-first International Conference on Machine Learning (2024)|
+|Huang, Sen, et al. "[**When Large Language Model Meets Optimization**](https://arxiv.org/abs/2405.10098)" arXiv preprint arXiv:2405.10098 (2024).|
+|Sun Q, Chen Z, Xu F, et al. "[**A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond**](https://openreview.net/forum?id=lH99v8c72g)". CoRR, (2024).|
+|Huang S, Yang K, Qi S, et al. When Large Language Model Meets Optimization[J]. arXiv preprint arXiv:2405.10098, 2024.|
 |Li P, Hao J, Tang H, et al. "[**Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey on Hybrid Algorithms**](https://ieeexplore.ieee.org/abstract/document/10637292). IEEE Transactions on Evolutionary Computation. (2024).
 |Song Y, Wu Y, Guo Y, et al. "[**Reinforcement learning-assisted evolutionary algorithm: A survey and research opportunities**](https://www.sciencedirect.com/science/article/pii/S2210650224000506). Swarm and Evolutionary Computation. (2024).
 |Nikolikj, Ana, et al. "[**Quantifying Individual and Joint Module Impact in Modular Optimization Frameworks**](https://arxiv.org/abs/2405.11964)." 2024 IEEE Congress on Evolutionary Computation. (2024).
