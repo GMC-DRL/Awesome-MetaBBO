@@ -20,9 +20,9 @@
 <img src="https://quickchart.io/chart?c=%7Btype%3A%27bar%27%2Cdata%3A%7Blabels%3A%5B%272014%27%2C%272015%27%2C%272016%27%2C%272017%27%2C%272018%27%2C%272019%27%2C%272020%27%2C%272021%27%2C%272022%27%2C%272023%27%2C%272024%27%5D%2Cdatasets%3A%5B%7Btype%3A%27bar%27%2Clabel%3A%27paper%20counts%20per%20year%27%2CbackgroundColor%3A%27rgba(255%2C%2099%2C%20132%2C%200.2)%27%2CborderColor%3A%27rgba(255%2C%2099%2C%20132%2C%201)%27%2CborderWidth%3A1%2Cdata%3A%5B2%2C3%2C1%2C5%2C3%2C4%2C9%2C12%2C15%2C26%2C46%5D%7D%2C%7Btype%3A%27line%27%2Clabel%3A%27development%20trend%27%2Cfill%3Afalse%2CborderColor%3A%27black%27%2CborderWidth%3A2%2CpointStyle%3A%27circle%27%2CpointRadius%3A5%2CpointBackgroundColor%3A%27black%27%2Cdata%3A%5B2%2C3%2C1%2C5%2C3%2C4%2C9%2C12%2C15%2C26%2C46%5D%7D%5D%7D%2Coptions%3A%7Bscales%3A%7By%3A%7BbeginAtZero%3Atrue%7D%7D%7D%7D" width="500"/>
 </div>
 
-<!--🚩We warmly invite you to read our survey on MetaBBO, "[Toward Autonomous Algorithm Design: A Survey and Empirical Evaluation of Meta-Black-Box-Optimization]()," for more detailed insights into MetaBBO!-->
+🚩We warmly invite you to read our survey on MetaBBO, "[Toward Autonomous Algorithm Design: A Survey and Empirical Evaluation of Meta-Black-Box-Optimization]()," for more detailed insights into MetaBBO!
 
-<!--## 😁Contact Us
+## 😁Contact Us
 <div align=center>
 <img src="fig/gmc.png" width="300">
 </div>
@@ -38,7 +38,7 @@ If you want to update the list or have any question：
 - ❓️Report an [issue](https://github.com/GMC-DRL/Awesome-MetaBBO/issues)
 - 📧Contact WenJie Qiu ([wukongqwj@gmail.com](mailto:wukongqwj@gmail.com))
 
-😘Join us in perfecting the MetaBBO papers and their code resources together!-->
+😘Join us in perfecting the MetaBBO papers and their code resources together!
 
 ## 🌍️Useful Github Repository
 👍️👍️👍️Many outstanding teams have developed excellent GitHub repositories for the Evolutionary Computation community, and we are pleased to share them here.
