@@ -27,7 +27,7 @@
 <img src="fig/gmc.png" width="300">
 </div>
 
-👨‍💻👩‍💻We are a research team mainly focus on the Evolutionary Computation, Black Box Optimization and Meta Black Box Optimization. 
+👨‍💻👩‍💻We are a research team mainly focus on Meta Black Box Optimization (MetaBBO), which assists automatic algorithm design for Evolutionary Computation. 
 
 Here is our [homepage](https://gmc-drl.github.io/) and [github](https://github.com/GMC-DRL). **🥰🥰🥰Please feel free to contact us—any suggestions are welcome!**
 
