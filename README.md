@@ -297,7 +297,7 @@ All papers are sorted by year of publication.
 |Evoprompting|Chen, Angelica, David Dohan, and David So. "[**Evoprompting: Language models for code-level neural architecture search**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/184c1e18d00d7752805324da48ad25be-Abstract-Conference.html)." Advances in Neural Information Processing Systems 36 (2024).|SOP|-|-|
 |OptiMUS|AhmadiTeshnizi A, Gao W, Udell M. "[**OptiMUS: Scalable Optimization Modeling with (MI) LP Solvers and Large Language Models**](https://openreview.net/forum?id=YT1dtdLvSN)" Forty-first International Conference on Machine Learning (2024).|MILP|-|[teshnizi/OptiMUS](https://github.com/teshnizi/OptiMUS)|
 |EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://openreview.net/forum?id=BwAkaxqiLB)." 41st International Conference on Machine Learning (2024).|CO|-|[nobodynobodypaper/EoH](https://github.com/nobodynobodypaper/EoH)|
-|LLM-MOOP|Huang Y, Wu S, Zhang W, et al. "[**Autonomous Multi-Objective Optimization Using Large Language Model**](https://ennetix.cloud/?_=%2Fabs%2F2406.08987%23T54G%2B%2F%2FWDHwWKle2kogeMes%3D)". arXiv preprint arXiv:2406.08987, (2024).|MOOP|-|-|
+|LLMOPT|Huang Y, Wu S, Zhang W, et al. "[**Autonomous Multi-Objective Optimization Using Large Language Model**](https://ennetix.cloud/?_=%2Fabs%2F2406.08987%23T54G%2B%2F%2FWDHwWKle2kogeMes%3D)". arXiv preprint arXiv:2406.08987, (2024).|MOOP|-|-|
 |AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
 
 
