@@ -239,7 +239,7 @@ All papers are sorted by year of publication.
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |ALDes|Zhao, Qi, et al. "[**Automated Metaheuristic Algorithm Design with Autoregressive Learning**](https://arxiv.org/abs/2405.03419)." arXiv preprint arXiv:2405.03419 (2024).|SOP|-|-|-|
 |SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://openreview.net/forum?id=vLJcd43U7a)." The Twelfth International Conference on Learning Representations. (2024).|SOP|-|PPO|[SYMBOL](https://github.com/GMC-DRL/Symbol)|
-|GSF|Yi, Wenjie, et al. "Automated design of metaheuristics using reinforcement learning within a novel general search framework." IEEE Transactions on Evolutionary Computation (2022)|CO|-|PSO/DQN|-|
+|GSF|Yi, Wenjie, et al. "Automated design of metaheuristics using reinforcement learning within a novel general search framework." IEEE Transactions on Evolutionary Computation (2022)|CO|-|PPO\DQN|-|
 
 
 #### 2.1.4 Algorithm Imitation
