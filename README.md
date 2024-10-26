@@ -326,6 +326,7 @@ All papers are sorted by year of publication.
 #### 2.4.3 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|Model Swarms|Feng, Shangbin, et al. "[**Model Swarms: Collaborative Search to Adapt LLM Experts via Swarm Intelligence**](https://arxiv.org/abs/2410.11163)" arXiv preprint arXiv:2410.11163 (2024).|COP|PSO|-|
 |EvoPrompt|Guo, Qingyan, et al. "[**Connecting large language models with evolutionary algorithms yields powerful prompt optimizers**](https://openreview.net/forum?id=ZG3RaNIsO8)." The Twelfth International Conference on Learning Representations (2024).|SOP|GA, DE|[beeevita/EvoPrompt](https://github.com/beeevita/EvoPrompt)|
 |CCMO-LLM|Wang, Zeyi, et al. "[**Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization**](https://link.springer.com/chapter/10.1007/978-981-97-5581-3_18)." International Conference on Intelligent Computing (2024).|CMOP|-|-|
 |LEO|Brahmachary, Shuvayan, et al. "[**Large Language Model-Based Evolutionary Optimizer: Reasoning with elitism**](https://arxiv.org/abs/2403.02054)." arXiv preprint arXiv:2403.02054 (2024).|SOP|-|-|
