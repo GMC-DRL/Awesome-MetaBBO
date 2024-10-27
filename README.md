@@ -102,8 +102,7 @@ All papers are sorted by year of publication.
 - 🔧[3. Others](#3-others)
     - 📈[3.1 Evaluation Indicator](#31-evaluation-indicator)
     - 📊[3.2 Landscape Feature](#32-landscape-feature)
-      
-- 🛠️[4. Application](#4-a)
+    - 🛠️[3.3 Application](#33-application)
 
 
 ## 1. 📝Survey Papers \& Benchmarks
@@ -273,11 +272,14 @@ All papers are sorted by year of publication.
 #### 2.2.3 Algorithm Imitation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|Diffusion Evolution|Zhang, Yanbo, et al. "[**Diffusion Models are Evolutionary Algorithms**](https://arxiv.org/abs/2410.02543)" arXiv preprint arXiv:2410.02543 (2024).|SOP|EAs|[Diffusion Evolution](https://github.com/Zhangyanbo/diffusion-evolution)|
+|RGD|Beckham, Christopher, et al. "[**Robust Guided Diffusion for Offline Black-Box Optimization**](https://arxiv.org/abs/2410.00983)" arXiv preprint arXiv:2410.00983 (2024).|SOP|-|[RGD](https://anonymous.4open.science/r/RGD-27A5/README.md)|
 |GLHF|Li, Xiaobin, et al. "[**GLHF: General Learned Evolutionary Algorithm Via Hyper Functions**](https://arxiv.org/abs/2405.03728)." arXiv preprint arXiv:2405.03728 (2024).|SOP|DE|-|
 |EvoTF|Lange, Robert Tjarko, Yingtao Tian, and Yujin Tang. "[**Evolution Transformer: In-Context Evolutionary Optimization**](https://arxiv.org/abs/2403.02985)." arXiv preprint arXiv:2403.02985 (2024).|SOP|-|[RobertTLange/evosax](https://github.com/RobertTLange/evosax)|
-|LEO-SL|Yu, Peiyu, et al. "[**Latent Energy-Based Odyssey: Black-Box Optimization via Expanded Exploration in the Energy-Based Latent Space**](https://arxiv.org/abs/2405.16730)." arXiv preprint arXiv:2405.16730 (2024).|SOP|-|-|
+|LEO|Yu, Peiyu, et al. "[**Latent Energy-Based Odyssey: Black-Box Optimization via Expanded Exploration in the Energy-Based Latent Space**](https://arxiv.org/abs/2405.16730)." arXiv preprint arXiv:2405.16730 (2024).|SOP|-|-|
 |RIBBO|Song, Lei, et al. "[**Reinforced In-Context Black-Box Optimization**](https://arxiv.org/abs/2402.17423)." arXiv preprint arXiv:2402.17423 (2024).|SOP|-|[RIBBO](https://github.com/songlei00/RIBBO)|
 |NAP|Maraval, Alexandre, et al. "[**End-to-end meta-Bayesian optimisation with transformer neural processes**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2561721d0ca69bab22b749cfc4f48f6c-Abstract-Conference.html)." Advances in Neural Information Processing Systems 36 (2024).|SOP|-|-|
+|DDOM|Krishnamoorthy, Siddarth, Satvik Mehul Mashkaria, and Aditya Grover. "[**Diffusion models for black-box optimization**](https://proceedings.mlr.press/v202/krishnamoorthy23a.html)" International Conference on Machine Learning. PMLR, (2023).|SOP|-|[DDOM](https://github.com/siddarthk97/ddom)|
 |B2Opt|Li X, Wu K, Zhang X, et al. "[**B2Opt: Learning to Optimize Black-box Optimization with Little Budget**](https://arxiv.org/abs/2304.11787)". arXiv preprint arXiv:2304.11787, (2023).|SOP|GA|-|
 |RNN-Opt|TV, Vishnu, et al. "[**Meta-learning for black-box optimization**](https://link.springer.com/chapter/10.1007/978-3-030-46147-8_22)." Joint European Conference on Machine Learning and Knowledge Discovery in Databases. (2019).|SOP|-|-|
 |RNN-OI|Chen, Yutian, et al. "[**Learning to learn without gradient descent by gradient descent**](http://proceedings.mlr.press/v70/chen17e.html)." International Conference on Machine Learning. PMLR (2017).|SOP|-|-|
@@ -359,14 +361,10 @@ All papers are sorted by year of publication.
 |ISA|Smith-Miles K, Muñoz M A. "[**Instance space analysis for algorithm testing: Methodology and software tools**](https://dl.acm.org/doi/abs/10.1145/3572895)". ACM Computing Surveys (2023).|
 |ELA|Mersmann O, Bischl B, Trautmann H, et al. "[**Exploratory landscape analysis**](https://dl.acm.org/doi/abs/10.1145/2001576.2001690)" Proceedings of the 13th annual conference on Genetic and evolutionary computation. (2011).|
 
-<p align="right">
-<a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
-</p>
-
-## 4.🛠️ A
+### 3.3🛠️ Application
 |Algorithm|Paper|Learning paradigm|Autonomous algorithm design task|Code|Application|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-||
+|DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-|Remote Sensing|
 
 <p align="right">
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
