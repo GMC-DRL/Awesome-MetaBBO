@@ -103,7 +103,7 @@ All papers are sorted by year of publication.
     - 📈[3.1 Evaluation Indicator](#31-evaluation-indicator)
     - 📊[3.2 Landscape Feature](#32-landscape-feature)
       
-- 🛠️[4. Application](#4-application)
+- 🛠️[4. Application](#4-a)
 
 
 ## 1. 📝Survey Papers \& Benchmarks
@@ -363,7 +363,7 @@ All papers are sorted by year of publication.
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
 </p>
 
-## 4.🛠️ Application
+## 4.🛠️ A
 |Algorithm|Paper|Learning paradigm|Autonomous algorithm design task|Code|Application|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-||
