@@ -106,7 +106,6 @@ All papers are sorted by year of publication.
 - 🛠️[4. Application](#4-application)
 
 
-
 ## 1. 📝Survey Papers \& Benchmarks
 
 ### 1.1. 📚Survey Papers
