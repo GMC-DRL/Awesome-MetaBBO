@@ -362,7 +362,7 @@ All papers are sorted by year of publication.
 |ISA|Smith-Miles K, Muñoz M A. "[**Instance space analysis for algorithm testing: Methodology and software tools**](https://dl.acm.org/doi/abs/10.1145/3572895)". ACM Computing Surveys (2023).|
 |ELA|Mersmann O, Bischl B, Trautmann H, et al. "[**Exploratory landscape analysis**](https://dl.acm.org/doi/abs/10.1145/2001576.2001690)" Proceedings of the 13th annual conference on Genetic and evolutionary computation. (2011).|
 
-### 3.3🛠️ Application
+### 3.3 Application
 |Algorithm|Paper|Learning paradigm|Automated algorithm design task|Code|Application|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-|Remote Sensing|
