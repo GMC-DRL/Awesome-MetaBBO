@@ -67,7 +67,7 @@ All papers are sorted by year of publication.
     - [2.1.1. Algorithm Selection](#211-algorithm-selection)
     - [2.1.2. Algorithm Configuration](#212-algorithm-configuration)
     - [2.1.3. Algorithm Generation](#213-algorithm-generation)
-    - [2.1.4. Algorithm Imitation](#214-algorithm-imitation)
+    - [2.1.4. Solution Manipulation](#214-solution-manipulation)
   </details>
 
   <details>
@@ -75,7 +75,7 @@ All papers are sorted by year of publication.
     
     - [2.2.1. Algorithm Selection](#221-algorithm-selection)
     - [2.2.2. Algorithm Configuration](#222-algorithm-configuration)
-    - [2.2.3. Algorithm Imitation](#223-algorithm-imitation)
+    - [2.2.3. Solution Manipulation](#223-solution-manipulation)
 
   </details>
 
@@ -84,7 +84,7 @@ All papers are sorted by year of publication.
     
 
     - [2.3.1. Algorithm Configuration](#231-algorithm-configuration)
-    - [2.3.2. Algorithm Imitation](#232-algorithm-imitation)
+    - [2.3.2. Solution Manipulation](#232-solution-manipulation)
 
   </details>
 
@@ -93,7 +93,7 @@ All papers are sorted by year of publication.
     
     - [2.4.1. Algorithm Selection](#241-algorithm-selection)
     - [2.4.2. Algorithm Generation](#242-algorithm-generation)
-    - [2.4.3. Algorithm Imitation](#243-algorithm-imitation)
+    - [2.4.3. Solution Manipulation](#243-solution-manipulation)
 
   </details>
 
@@ -242,7 +242,7 @@ All papers are sorted by year of publication.
 |GSF|Yi, Wenjie, et al. "Automated design of metaheuristics using reinforcement learning within a novel general search framework." IEEE Transactions on Evolutionary Computation (2022)|CO|-|PPO\DQN|-|
 
 
-#### 2.1.4 Algorithm Imitation
+#### 2.1.4 Solution Maniputation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |MELBA|Chaybouti, Sofian, et al. "[**Meta-learning of Black-box Solvers Using Deep Reinforcement Learning**](https://hal.science/hal-03930140/)." NeurIPS 2022, MetaLearn Workshop. (2022).|SOP|-|PPO|-|
@@ -269,7 +269,7 @@ All papers are sorted by year of publication.
 |ada-smoDE|Zhang H, Shi J, Sun J, et al. "[**A Gradient-based Method for Differential Evolution Parameter Control by Smoothing**](https://dl.acm.org/doi/abs/10.1145/3638530.3654185)" Proceedings of the Genetic and Evolutionary Computation Conference Companion. (2024).|SOP|DE|-|
 
 
-#### 2.2.3 Algorithm Imitation
+#### 2.2.3 Solution Maniputation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |Diffusion Evolution|Zhang, Yanbo, et al. "[**Diffusion Models are Evolutionary Algorithms**](https://arxiv.org/abs/2410.02543)" arXiv preprint arXiv:2410.02543 (2024).|COP|EAs|[Diffusion Evolution](https://github.com/Zhangyanbo/diffusion-evolution)|
@@ -295,7 +295,7 @@ All papers are sorted by year of publication.
 |:-:|:-:|:-:|:-:|:-:|
 |LES|Lange, Robert, et al. "[**Discovering evolution strategies via meta-black-box optimization**](https://iclr.cc/virtual/2023/poster/11005)." The Eleventh International Conference on Learning Representations. (2023).|SOP|CMA-ES|[LES](https://github.com/RobertTLange/evosax/blob/main/evosax/strategies/les.py)|
 
-#### 2.3.2 Algorithm Imitation
+#### 2.3.2 Solution Maniputation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LGA|Lange, Robert, et al. "[**Discovering attention-based genetic algorithms via meta-black-box optimization**](https://dl.acm.org/doi/abs/10.1145/3583131.3590496)." Proceedings of the Genetic and Evolutionary Computation Conference. (2023).|SOP|GA|[LGA](https://github.com/RobertTLange/evosax/blob/main/evosax/strategies/lga.py)|
@@ -326,7 +326,7 @@ All papers are sorted by year of publication.
 |AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
 
 
-#### 2.4.3 Algorithm Imitation
+#### 2.4.3 Solution Maniputation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |Model Swarms|Feng, Shangbin, et al. "[**Model Swarms: Collaborative Search to Adapt LLM Experts via Swarm Intelligence**](https://arxiv.org/abs/2410.11163)" arXiv preprint arXiv:2410.11163 (2024).|COP|PSO|-|
