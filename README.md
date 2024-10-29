@@ -240,7 +240,7 @@ All papers are sorted by year of publication.
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |ALDes|Zhao, Qi, et al. "[**Automated Metaheuristic Algorithm Design with Autoregressive Learning**](https://arxiv.org/abs/2405.03419)." arXiv preprint arXiv:2405.03419 (2024).|SOP|-|-|-|
 |SYMBOL|Chen, Jiacheng, et al. "[**Symbol: Generating Flexible Black-Box Optimizers through Symbolic Equation Learning**](https://openreview.net/forum?id=vLJcd43U7a)." The Twelfth International Conference on Learning Representations. (2024).|SOP|-|PPO|[SYMBOL](https://github.com/GMC-DRL/Symbol)|
-|GSF|Yi, Wenjie, et al. "Automated design of metaheuristics using reinforcement learning within a novel general search framework." IEEE Transactions on Evolutionary Computation (2022)|CO|-|PPO\DQN|-|
+|GSF|Yi, Wenjie, et al. "[**Automated design of metaheuristics using reinforcement learning within a novel general search framework**](https://ieeexplore.ieee.org/abstract/document/9852781/)." IEEE Transactions on Evolutionary Computation (2022)|CO|-|PPO\DQN|-|
 
 
 #### 2.1.4 Solution Manipulation
@@ -323,7 +323,7 @@ All papers are sorted by year of publication.
 |Evoprompting|Chen, Angelica, David Dohan, and David So. "[**Evoprompting: Language models for code-level neural architecture search**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/184c1e18d00d7752805324da48ad25be-Abstract-Conference.html)." Advances in Neural Information Processing Systems 36 (2024).|SOP|-|-|
 |OptiMUS|AhmadiTeshnizi A, Gao W, Udell M. "[**OptiMUS: Scalable Optimization Modeling with (MI) LP Solvers and Large Language Models**](https://openreview.net/forum?id=YT1dtdLvSN)" Forty-first International Conference on Machine Learning (2024).|MILP|-|[teshnizi/OptiMUS](https://github.com/teshnizi/OptiMUS)|
 |EoH|Liu, Fei, et al. "[**Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model**](https://openreview.net/forum?id=BwAkaxqiLB)." 41st International Conference on Machine Learning (2024).|CO|-|[nobodynobodypaper/EoH](https://github.com/nobodynobodypaper/EoH)|
-|LLMOPT|Huang Y, Wu S, Zhang W, et al. "[**automated Multi-Objective Optimization Using Large Language Model**](https://ennetix.cloud/?_=%2Fabs%2F2406.08987%23T54G%2B%2F%2FWDHwWKle2kogeMes%3D)". arXiv preprint arXiv:2406.08987, (2024).|MOOP|-|-|
+|LLMOPT|Huang Y, Wu S, Zhang W, et al. "[**Autonomous Multi-Objective Optimization Using Large Language Model**](https://ennetix.cloud/?_=%2Fabs%2F2406.08987%23T54G%2B%2F%2FWDHwWKle2kogeMes%3D)". arXiv preprint arXiv:2406.08987, (2024).|MOOP|-|-|
 |AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
 
 
@@ -363,7 +363,7 @@ All papers are sorted by year of publication.
 |ELA|Mersmann O, Bischl B, Trautmann H, et al. "[**Exploratory landscape analysis**](https://dl.acm.org/doi/abs/10.1145/2001576.2001690)" Proceedings of the 13th annual conference on Genetic and evolutionary computation. (2011).|
 
 ### 3.3🛠️ Application
-|Algorithm|Paper|Learning paradigm|automated algorithm design task|Code|Application|
+|Algorithm|Paper|Learning paradigm|Automated algorithm design task|Code|Application|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-|Remote Sensing|
 
