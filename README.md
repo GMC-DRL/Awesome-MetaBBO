@@ -13,7 +13,7 @@
 
 
 ## 🤨What is MetaBBO?
-🔥Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the performance of existing BBO optimizers. 🚀By utilizing Meta Learning, the reliance on expert-level knowledge is reduced, highlighting the trend toward automated algorithm design in BBO.
+🔥Meta-Black-Box-Optimization (MetaBBO) is an emerging research topic, leveraging the generalization power of Meta Learning to enhance the performance of existing BBO optimizers, or create new ones. 🚀By utilizing Meta Learning, the reliance on expert-level knowledge is reduced, highlighting the trend toward automated algorithm design in BBO.
 
 <!--使用quickchart来生成动态图表，方便随时调整-->
 <div align=center>
@@ -27,11 +27,11 @@
 <img src="fig/gmc.png" width="300">
 </div>
 
-👨‍💻👩‍💻We are a research team mainly focus on Meta Black Box Optimization (MetaBBO), which assists automatic algorithm design for Evolutionary Computation. 
+👨‍💻👩‍💻We are a research team mainly focus on Meta Black Box Optimization (MetaBBO), which assists automated algorithm design for Evolutionary Computation. 
 
 Here is our [homepage](https://gmc-drl.github.io/) and [github](https://github.com/GMC-DRL). **🥰🥰🥰Please feel free to contact us—any suggestions are welcome!**
 
-✨️MetaBBO is rapidly evolving, and this is by no means a comprehensive list of papers.
+✨️MetaBBO is rapidly evolving, and this is by no means a comprehensive list of papers, which would be continuously matained and updated.
 
 If you want to update the list or have any question：
 - 🌱Fork, Add, and Merge
