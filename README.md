@@ -55,7 +55,7 @@ If you want to update the list or have any question：
 |:-:|:-:|
 |[MetaBox](https://github.com/GMC-DRL/MetaBox)|MetaBox: A Benchmark Platform for Meta-Black-Box Optimization with Reinforcement Learning|
 |[LLM4Opt](https://github.com/FeiLiu36/LLM4Opt)|A Collection on Large Language Models for Optimization|
-|[pypop7](https://github.com/Wukong-SCUT/pypop)|A Pure-Python Library for POPulation-based Black-Box Optimization|
+|[pypop7](https://github.com/Evolutionary-Intelligence/pypop)|A Pure-Python Library for POPulation-based Black-Box Optimization|
 |[EvoX](https://github.com/EMI-Group/evox)|Distributed GPU-Accelerated Framework for Evolutionary Computation. Comprehensive Library of Evolutionary Algorithms & Benchmark Problems|
 |[evosax](https://github.com/RobertTLange/evosax)|Evolution Strategies in JAX |
 
