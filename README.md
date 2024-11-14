@@ -23,9 +23,9 @@
 🚩We warmly invite you to read our survey on MetaBBO, "[Toward Automated Algorithm Design: A Survey and Practical Guide to Meta-Black-Box-Optimization](http://arxiv.org/abs/2411.00625)," for more detailed insights into MetaBBO! Besides, if you find this repository useful, please cite it in your publications or projects as follows.
 
 ```latex
-@article{ma2024metabbo,
+@article{ma2024toward,
   title={Toward Automated Algorithm Design: A Survey and Practical Guide to Meta-Black-Box-Optimization},
-  author={Ma, Zeyuan and Guo, Hongshu and Gong, Yue-Jiao and Zhang, Jun and Kay Chen Tan},
+  author={Ma, Zeyuan and Guo, Hongshu and Gong, Yue-Jiao and Zhang, Jun and Tan, Kay Chen},
   journal={arXiv preprint arXiv:2411.00625},
   year={2024}
 }
