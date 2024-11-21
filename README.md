@@ -198,7 +198,7 @@ All papers are sorted by year of publication.
 
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|DRLCEA|Luo, Wenguan, et al. "[**Deep reinforcement learning-guided coevolutionary algorithm for constrained multiobjective optimization**](https://www.sciencedirect.com/science/article/pii/S0020025524015627)." Information Sciences (2024).|CMOP|-|DQN|-|
+|DRLCEA|Luo, Wenguan, et al. "[**Deep reinforcement learning-guided coevolutionary algorithm for constrained multiobjective optimization**](https://www.sciencedirect.com/science/article/pii/S0020025524015627)." Information Sciences (2024).|CMOP|EAs|DQN|-|
 |HF|Pei J, Liu J, Mei Y. "[**Learning from Offline and Online Experiences: A Hybrid Adaptive Operator Selection Framework**](https://dl.acm.org/doi/abs/10.1145/3638529.3654062)" Proceedings of the Genetic and Evolutionary Computation Conference. (2024).|SOP,CO|DE|DDQN|-|
 |UES-CMAES-RL|Bolufé-Röhler A, Xu B. "[**Deep Reinforcement Learning for Smart Restarts in Exploration-Only Exploitation-Only Hybrid Metaheuristics Metaheuristics International Conference**](https://link.springer.com/chapter/10.1007/978-3-031-62922-8_2)" (2024).|SOP|UES-CMAES|DQN|-|
 |MTDE-L2T|Wu S H, Huang Y, Wu X, et al. "[**Learning to Transfer for Evolutionary Multitasking**](https://arxiv.org/abs/2406.14359)". arXiv preprint arXiv:2406.14359, (2024).|MTOP|EC|PPO|-|
