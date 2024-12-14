@@ -198,6 +198,8 @@ All papers are sorted by year of publication.
 
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
+|ConfigX|Guo, Hongshu, et al. "[**ConfigX: Modular Configuration for Evolutionary Algorithms via Multitask Reinforcement Learning**](https://arxiv.org/abs/2412.07507)." arXiv preprint arXiv:2412.07507 (2024).|SOP|EAs|PPO|-|
+|AuDE|Cao, Zijian, et al. "[**An autonomous differential evolution based on reinforcement learning for cooperative countermeasures of unmanned aerial vehicles**](https://www.sciencedirect.com/science/article/pii/S1568494624013796)." Applied Soft Computing (2024).|SOP|DE|Tabular Q-learning|-|
 |DRLCEA|Luo, Wenguan, et al. "[**Deep reinforcement learning-guided coevolutionary algorithm for constrained multiobjective optimization**](https://www.sciencedirect.com/science/article/pii/S0020025524015627)." Information Sciences (2024).|CMOP|EAs|DQN|-|
 |HF|Pei J, Liu J, Mei Y. "[**Learning from Offline and Online Experiences: A Hybrid Adaptive Operator Selection Framework**](https://dl.acm.org/doi/abs/10.1145/3638529.3654062)" Proceedings of the Genetic and Evolutionary Computation Conference. (2024).|SOP,CO|DE|DDQN|-|
 |UES-CMAES-RL|Bolufé-Röhler A, Xu B. "[**Deep Reinforcement Learning for Smart Restarts in Exploration-Only Exploitation-Only Hybrid Metaheuristics Metaheuristics International Conference**](https://link.springer.com/chapter/10.1007/978-3-031-62922-8_2)" (2024).|SOP|UES-CMAES|DQN|-|
