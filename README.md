@@ -101,8 +101,9 @@ All papers are sorted by year of publication.
     <summary>🧠 2.4 MetaBBO via In-Context Learning</summary>
     
     - [2.4.1. Algorithm Selection](#241-algorithm-selection)
-    - [2.4.2. Algorithm Generation](#242-algorithm-generation)
-    - [2.4.3. Solution Manipulation](#243-solution-manipulation)
+    - [2.4.2. Algorithm Configuration](#242-algorithm-configuration)
+    - [2.4.3. Algorithm Generation](#243-algorithm-generation)
+    - [2.4.4. Solution Manipulation](#244-solution-manipulation)
 
   </details>
 
@@ -199,7 +200,10 @@ All papers are sorted by year of publication.
 
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
+|DRL-SAEA|Shao, Shuai, Ye Tian, and Yajie Zhang. "[**Deep reinforcement learning assisted surrogate model management for expensive constrained multi-objective optimization**](https://www.sciencedirect.com/science/article/pii/S2210650224003559)." Swarm and Evolutionary Computation 92 (2025).|ECMOP|SAEA|DQN|-|
 |ConfigX|Guo, Hongshu, et al. "[**ConfigX: Modular Configuration for Evolutionary Algorithms via Multitask Reinforcement Learning**](https://arxiv.org/abs/2412.07507)." arXiv preprint arXiv:2412.07507 (2024).|SOP|EAs|PPO|-|
+|RL_DNSABC|Ye, Tingyu, et al. "[**Reinforcement learning-driven dual neighborhood structure artificial bee colony algorithm for continuous optimization problem**](https://www.sciencedirect.com/science/article/pii/S1568494624013759)." Applied Soft Computing (2024)|SOP|ABC|Tabular Q-learning|-|
+|QLBOS2N|Cheng, Shi, et al. "[**A Q-Learning Based Brainstorming Optimization Algorithm for Solving Multimodal Optimization Problems**](https://ieeexplore.ieee.org/abstract/document/10757322)." IEEE Transactions on Consumer Electronics (2024).|MMOPs|BSO|Tabular Q-learning|-|
 |AuDE|Cao, Zijian, et al. "[**An autonomous differential evolution based on reinforcement learning for cooperative countermeasures of unmanned aerial vehicles**](https://www.sciencedirect.com/science/article/pii/S1568494624013796)." Applied Soft Computing (2024).|SOP|DE|Tabular Q-learning|-|
 |DRLCEA|Luo, Wenguan, et al. "[**Deep reinforcement learning-guided coevolutionary algorithm for constrained multiobjective optimization**](https://www.sciencedirect.com/science/article/pii/S0020025524015627)." Information Sciences (2024).|CMOP|EAs|DQN|-|
 |HF|Pei J, Liu J, Mei Y. "[**Learning from Offline and Online Experiences: A Hybrid Adaptive Operator Selection Framework**](https://dl.acm.org/doi/abs/10.1145/3638529.3654062)" Proceedings of the Genetic and Evolutionary Computation Conference. (2024).|SOP,CO|DE|DDQN|-|
@@ -213,6 +217,7 @@ All papers are sorted by year of publication.
 |RLNS|Hong, Jiale, Bo Shen, and Anqi Pan. "[**A reinforcement learning-based neighborhood search operator for multi-modal optimization and its applications**](https://www.sciencedirect.com/science/article/pii/S0957417424000150)." Expert Systems with Applications (2024).|MMOP|SSA,PSO,EO|Tabular Q-learning|-|
 |RLMODE|Yu, Xiaobing, et al. "[**Reinforcement learning-based differential evolution algorithm for constrained multi-objective optimization problems**](https://www.sciencedirect.com/science/article/pii/S0952197623020018)." Engineering Applications of Artificial Intelligence (2024).|MOOP|DE|Tabular Q-learning|-|
 |GLEET|Ma, Zeyuan, et al. "[**Auto-configuring Exploration-Exploitation Tradeoff in Evolutionary Computation via Deep Reinforcement Learning**](https://dl.acm.org/doi/abs/10.1145/3638529.3653996)." Proceedings of the Genetic and Evolutionary Computation Conference (2024).|SOP|DE,PSO|PPO|[GLEET](https://github.com/GMC-DRL/GLEET)|
+|RLMFEA|Li, Shuijia, et al. "[**Evolutionary multitasking via reinforcement learning**](https://ieeexplore.ieee.org/abstract/document/10144924/)." IEEE Transactions on Emerging Topics in Computational Intelligence 8.1 (2023).|MFO|EAs|Tabular Q-learning|-|
 |RLHDE|Peng L, Yuan Z, Dai G, et al. "[**Reinforcement learning-based hybrid differential evolution for global optimization of interplanetary trajectory design**](https://www.sciencedirect.com/science/article/pii/S2210650223001244)". Swarm and Evolutionary Computation, (2023).|SOP|HLSHADE|Tabular Q-learning|-|
 |AMODE-DRL|Li T, Meng Y, Tang L. "[**Scheduling of continuous annealing with a multi-objective differential evolution algorithm based on deep reinforcement learning**](https://ieeexplore.ieee.org/abstract/document/10049395)". IEEE Transactions on Automation Science and Engineering (2023).|MOOP|MODE|DDQN+DDPG|-|
 |MARLABC|Zhao F, Wang Z, Wang L, et al. "[**A multi-agent reinforcement learning driven artificial bee colony algorithm with the central controller**](https://www.sciencedirect.com/science/article/pii/S0957417423001732)". Expert Systems with Applications (2023).|SOP|ABC|Tabular Q-learning|-|
@@ -326,7 +331,12 @@ All papers are sorted by year of publication.
 |:-:|:-:|:-:|:-:|:-:|
 |AS-LLM|Wu, Xingyu, et al. "[**Large language model-enhanced algorithm selection: towards comprehensive algorithm representation**](https://ira.lib.polyu.edu.hk/handle/10397/108348)." International Joint Conference on Artificial Intelligence (2024).|SOP|-|-|
 
-#### 2.4.2 Algorithm Generation
+#### 2.4.2 Algorithm Configuration
+|Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
+|:-:|:-:|:-:|:-:|:-:|
+|GeminiDE|Zhong, Rui, et al. "[**GeminiDE: A Novel Parameter Adaptation Scheme in Differential Evolution**](https://ieeexplore.ieee.org/document/10704309)." 2024 6th International Conference on Data-driven Optimization of Complex Systems (DOCS). IEEE, (2024).|SOP|DE|[GeminiDE](https://github.com/RuiZhong961230/GeminiDE.)|
+
+#### 2.4.3 Algorithm Generation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |LLMOPT|Jiang, Caigao, et al. "[**LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch**](https://arxiv.org/pdf/2410.13213)" arXiv preprint arXiv:2410.13213 (2024).|SOP|-|[caigaojiang/LLMOPT](https://github.com/caigaojiang/LLMOPT)|
@@ -341,7 +351,7 @@ All papers are sorted by year of publication.
 |AEL|Liu, Fei, et al. "[**Algorithm evolution using large language model**](https://arxiv.org/abs/2311.15249)." arXiv preprint arXiv:2311.15249 (2023).|CO|-|[AEL](https://paperswithcode.com/paper/algorithm-evolution-using-large-language)|
 
 
-#### 2.4.3 Solution Manipulation
+#### 2.4.4 Solution Manipulation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
 |Model Swarms|Feng, Shangbin, et al. "[**Model Swarms: Collaborative Search to Adapt LLM Experts via Swarm Intelligence**](https://arxiv.org/abs/2410.11163)" arXiv preprint arXiv:2410.11163 (2024).|SOP|PSO|-|
