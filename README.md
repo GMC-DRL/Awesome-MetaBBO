@@ -122,6 +122,7 @@ All papers are sorted by year of publication.
 |Paper|
 |:-:|
 |Ma, Zeyuan, et al. "[**Toward Automated Algorithm Design: A Survey and Practical Guide to Meta-Black-Box-Optimization**](http://arxiv.org/abs/2411.00625)." arXiv preprint arXiv:2411.00625 (2024).|
+|Yang, Xu, Rui Wang, and Kaiwen Li. "[**Meta-Black-Box Optimization for Evolutionary Algorithms: Review and Perspective**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4956956)" Available at SSRN 4956956 (2024).|
 |He Yu and Jing Liu. "[**Deep Insights into Automated Optimization with Large Language Models and Evolutionary Algorithms**](https://arxiv.org/abs/2410.20848)". arXiv preprint arXiv:2410.20848 (2024).|
 |Wu X, Wu S, Wu J, et al. "[**Evolutionary computation in the era of large language model: Survey and roadmap**](https://arxiv.org/abs/2401.10034)". arXiv preprint arXiv:2401.10034 (2024).|
 |Song, Xingyou, et al. "[**Position: Leverage Foundational Models for Black-Box Optimization**](https://openreview.net/forum?id=ea2MgKn3sV)" Forty-first International Conference on Machine Learning (2024)|
