@@ -46,6 +46,7 @@ If you want to update the list or have any question：
 - 🌱Fork, Add, and Merge
 - ❓️Report an [issue](https://github.com/GMC-DRL/Awesome-MetaBBO/issues)
 - 📧Contact WenJie Qiu ([wukongqwj@gmail.com](mailto:wukongqwj@gmail.com))
+- 🚨**We warmly invite you to join our QQ group for further communication (Group Number: 952185139).**
 
 😘Join us in perfecting the MetaBBO papers and their code resources together!
 
