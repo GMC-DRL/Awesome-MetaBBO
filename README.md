@@ -194,6 +194,7 @@ All papers are sorted by year of publication.
 #### 2.1.1 Algorithm Selection
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
+|MSDE|Lu, Yiling, et al. "[**A multi-strategy self-adaptive differential evolution algorithm for assembly hybrid flowshop lot-streaming scheduling with component sharing**](https://www.sciencedirect.com/science/article/pii/S2210650224003213)." Swarm and Evolutionary Computation 92 (2025).|SOP|DE|Tabular Q-learning|-|
 |HHRL-MAR|Zhu N, Zhao F, Cao J. "[**A Hyperheuristic and Reinforcement Learning Guided Meta-heuristic Algorithm Recommendation**](https://ieeexplore.ieee.org/abstract/document/10580058/)" 2024 27th International Conference on Computer Supported Cooperative Work in Design (2024)|SOP|SI|Tabular Q-learning|-|
 |R2-RLMOEA|Tahernezhad-Javazm F, Rankin D, Bois N D, et al. "[**R2 Indicator and Deep Reinforcement Learning Enhanced Adaptive Multi-Objective Evolutionary Algorithm**](https://arxiv.org/abs/2404.08161)". arXiv preprint arXiv:2404.08161 (2024).|MOOP|EAs|DDQN|-|
 |RL-DAS|Guo, Hongshu, et al. "[**Deep Reinforcement Learning for Dynamic Algorithm Selection: A Proof-of-Principle Study on Differential Evolution**](https://ieeexplore.ieee.org/abstract/document/10496708/)." IEEE Transactions on Systems, Man, and Cybernetics: Systems (2024).|SOP|DE|PPO|[RL-DAS](https://github.com/GMC-DRL/RL-DAS)|
@@ -294,6 +295,7 @@ All papers are sorted by year of publication.
 #### 2.2.3 Solution Manipulation
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|GNE|Ouyang, Kaichen, and Shengwei Fu. "[**Graph Neural Networks Are Evolutionary Algorithms**](https://arxiv.org/abs/2412.17629)." arXiv preprint arXiv:2412.17629 (2024).|SOP|EAs|-|
 |Diffusion Evolution|Zhang, Yanbo, et al. "[**Diffusion Models are Evolutionary Algorithms**](https://arxiv.org/abs/2410.02543)" arXiv preprint arXiv:2410.02543 (2024).|SOP|EAs|[Diffusion Evolution](https://github.com/Zhangyanbo/diffusion-evolution)|
 |RGD|Beckham, Christopher, et al. "[**Robust Guided Diffusion for Offline Black-Box Optimization**](https://arxiv.org/abs/2410.00983)" arXiv preprint arXiv:2410.00983 (2024).|SOP|-|[RGD](https://anonymous.4open.science/r/RGD-27A5/README.md)|
 |GLHF|Li, Xiaobin, et al. "[**GLHF: General Learned Evolutionary Algorithm Via Hyper Functions**](https://arxiv.org/abs/2405.03728)." arXiv preprint arXiv:2405.03728 (2024).|SOP|DE|-|
@@ -336,6 +338,7 @@ All papers are sorted by year of publication.
 #### 2.4.2 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|LLMOA|Zhong, Rui, et al. "[**LLMOA: A novel large language model assisted hyper-heuristic optimization algorithm**](https://www.sciencedirect.com/science/article/pii/S1474034624006931)." Advanced Engineering Informatics 64 (2025).|SOP|DE|[LLMOA](https://github.com/RuiZhong961230/LLMOA)|
 |GeminiDE|Zhong, Rui, et al. "[**GeminiDE: A Novel Parameter Adaptation Scheme in Differential Evolution**](https://ieeexplore.ieee.org/document/10704309)." 2024 6th International Conference on Data-driven Optimization of Complex Systems (DOCS). IEEE, (2024).|SOP|DE|[GeminiDE](https://github.com/RuiZhong961230/GeminiDE.)|
 
 #### 2.4.3 Algorithm Generation
