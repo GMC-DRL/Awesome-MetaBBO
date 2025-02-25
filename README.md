@@ -396,6 +396,7 @@ All papers are sorted by year of publication.
 |Algorithm|Paper|Learning paradigm|Automated algorithm design task|Code|Application|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-|Remote Sensing|
+|DQN-Based NSGA-II|Pei, C. H. I., et al. "[**Dynamic effect web generation for heterogeneous UAV cluster using DQN-based NSGA-II: Methods and applications]**(https://www.sciencedirect.com/science/article/pii/S1000936124005077)." Chinese Journal of Aeronautics (2024): 103351.|Meta-RL|Algorithm Configuration|-|Unmanned Aerial Vehicles|
 
 <p align="right">
 <a href="https://github.com/GMC-DRL/Awesome-MetaBBO/tree/main#awesome-metabbo">Back to Top</a>
