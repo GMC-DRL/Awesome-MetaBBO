@@ -402,7 +402,7 @@ All papers are sorted by year of publication.
 |Algorithm|Paper|Learning paradigm|Automated algorithm design task|Code|Application|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |RPSO|Zhang, Zihang, et al. "[**Reinforcement learning-based particle swarm optimization for wind farm layout problems**](https://www.sciencedirect.com/science/article/pii/S0360544224038283)." Energy 313 (2024).|Meta-RL|Algorithm Configuration|[RPSO](https://toyamaailab.github.io/)|Wind farm layout problems|
-|The investigation of the ability of OpenAI-ES|Lorenc, Matyáš. "[**Utilizing Evolution Strategies to Train Transformers in Reinforcement Learning**](https://arxiv.org/abs/2501.13883)." arXiv preprint arXiv:2501.13883 (2025).|-|-|[Code](https://github.com/Mafi412/ Evolution-Strategies-and-Decision-Transformers)|Training of Networks|
+|The investigation of the ability of OpenAI-ES|Lorenc, Matyáš. "[**Utilizing Evolution Strategies to Train Transformers in Reinforcement Learning**](https://arxiv.org/abs/2501.13883)." arXiv preprint arXiv:2501.13883 (2025).|-|-|[Code](https://github.com/Mafi412/Evolution-Strategies-and-Decision-Transformers)|Training of Networks|
 |DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-|Remote Sensing|
 |DQN-Based NSGA-II|Pei, C. H. I., et al. "[**Dynamic effect web generation for heterogeneous UAV cluster using DQN-based NSGA-II: Methods and applications**](https://www.sciencedirect.com/science/article/pii/S1000936124005077)." Chinese Journal of Aeronautics (2024)|Meta-RL|Algorithm Configuration|-|Unmanned Aerial Vehicles|
 
