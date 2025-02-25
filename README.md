@@ -317,6 +317,7 @@ All papers are sorted by year of publication.
 #### 2.3.1 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|LQD|Faldor, Maxence, Robert Tjarko Lange, and Antoine Cully. "[**Discovering Quality-Diversity Algorithms via Meta-Black-Box Optimization**](https://arxiv.org/abs/2502.02190)." arXiv preprint arXiv:2502.02190 (2025).|SOP|QD|-|
 |LES|Lange, Robert, et al. "[**Discovering evolution strategies via meta-black-box optimization**](https://iclr.cc/virtual/2023/poster/11005)." The Eleventh International Conference on Learning Representations. (2023).|SOP|CMA-ES|[LES](https://github.com/RobertTLange/evosax/blob/main/evosax/strategies/les.py)|
 
 #### 2.3.2 Solution Manipulation
