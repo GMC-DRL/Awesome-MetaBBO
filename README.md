@@ -146,6 +146,7 @@ All papers are sorted by year of publication.
 
 |Benchmark|Paper|Code Resource|Optimization Type|
 |:-:|:-:|:-:|:-:|
+|UAV-path-planning|Shehadeh, Mhd Ali, and Jakub Kudela. "[**Benchmarking global optimization techniques for unmanned aerial vehicle path planning**](https://arxiv.org/abs/2501.14503)." arXiv preprint arXiv:2501.14503 (2025).|-|SOP|
 |GP-based|He Y, Aranha C. "[**Evolving Benchmark Functions to Compare Evolutionary Algorithms via Genetic Programming**](https://arxiv.org/abs/2403.14146)". arXiv preprint arXiv:2403.14146 (2024).|[GP-based](https://github.com/Y1fanHE/cec2024)|SOP,MOOP|
 |SELECTOR|Benjamins C, Cenikj G, Nikolikj A, et al. "[**Instance selection for dynamic algorithm configuration with reinforcement learning: Improving generalization**](https://dl.acm.org/doi/abs/10.1145/3638530.3654291)" Proceedings of the Genetic and Evolutionary Computation Conference Companion. (2024).|[automl/instance-dac]( https://github.com/automl/instance-dac)|Comprehensive platform|
 |MetaBox|Ma, Zeyuan, et al. "[**MetaBox: A Benchmark Platform for Meta-Black-Box Optimization with Reinforcement Learning**](https://neurips.cc/virtual/2023/oral/73737)." Advances in Neural Information Processing Systems 36 (2023).|[GMC-DRL/MetaBox]( https://github.com/GMC-DRL/MetaBox)|Comprehensive platform|
@@ -340,6 +341,7 @@ All papers are sorted by year of publication.
 #### 2.4.2 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|LLaMEA with controlled mutation|Yin, Haoran, et al. "[**Controlling the mutation in large language models for the efficient evolution of algorithms**](https://arxiv.org/abs/2412.03250)." arXiv preprint arXiv:2412.03250 (2024).|SOP|ES|-|
 |LLMOA|Zhong, Rui, et al. "[**LLMOA: A novel large language model assisted hyper-heuristic optimization algorithm**](https://www.sciencedirect.com/science/article/pii/S1474034624006931)." Advanced Engineering Informatics 64 (2025).|SOP|DE|[LLMOA](https://github.com/RuiZhong961230/LLMOA)|
 |GeminiDE|Zhong, Rui, et al. "[**GeminiDE: A Novel Parameter Adaptation Scheme in Differential Evolution**](https://ieeexplore.ieee.org/document/10704309)." 2024 6th International Conference on Data-driven Optimization of Complex Systems (DOCS). IEEE, (2024).|SOP|DE|[GeminiDE](https://github.com/RuiZhong961230/GeminiDE.)|
 
