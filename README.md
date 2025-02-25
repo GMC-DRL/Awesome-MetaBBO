@@ -204,6 +204,7 @@ All papers are sorted by year of publication.
 
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|RL|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|:-:|
+|rlDE|Yang, Xu, et al. "Reinforcement learning Based Automated Design of Differential Evolution Algorithm for Black-box Optimization." arXiv preprint arXiv:2501.12881 (2025).|SOP|DE|DDQN|-|
 |DRL-SAEA|Shao, Shuai, Ye Tian, and Yajie Zhang. "[**Deep reinforcement learning assisted surrogate model management for expensive constrained multi-objective optimization**](https://www.sciencedirect.com/science/article/pii/S2210650224003559)." Swarm and Evolutionary Computation 92 (2025).|ECMOP|SAEA|DQN|-|
 |ConfigX|Guo, Hongshu, et al. "[**ConfigX: Modular Configuration for Evolutionary Algorithms via Multitask Reinforcement Learning**](https://arxiv.org/abs/2412.07507)." arXiv preprint arXiv:2412.07507 (2024).|SOP|EAs|PPO|-|
 |RL_DNSABC|Ye, Tingyu, et al. "[**Reinforcement learning-driven dual neighborhood structure artificial bee colony algorithm for continuous optimization problem**](https://www.sciencedirect.com/science/article/pii/S1568494624013759)." Applied Soft Computing (2024)|SOP|ABC|Tabular Q-learning|-|
@@ -290,6 +291,7 @@ All papers are sorted by year of publication.
 #### 2.2.2 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|Neural optimized metaheuristic algorithm|Oyelade, Olaide N., et al. "[**Deep learning at the service of metaheuristics for solving numerical optimization problems**](https://link.springer.com/article/10.1007/s00521-024-10610-7)." Neural Computing and Applications (2025).|SOP|-|-|
 |ada-smoDE|Zhang H, Shi J, Sun J, et al. "[**A Gradient-based Method for Differential Evolution Parameter Control by Smoothing**](https://dl.acm.org/doi/abs/10.1145/3638530.3654185)" Proceedings of the Genetic and Evolutionary Computation Conference Companion. (2024).|SOP|DE|-|
 
 
@@ -341,6 +343,7 @@ All papers are sorted by year of publication.
 #### 2.4.2 Algorithm Configuration
 |Algorithm|Paper|Optimization Type|Low-Level Optimizer|Code Resource|
 |:-:|:-:|:-:|:-:|:-:|
+|LLMOA|Zhong, Rui, et al. "[**LLMOA: A novel large language model assisted hyper-heuristic optimization algorithm**](https://www.sciencedirect.com/science/article/pii/S1474034624006931)." Advanced Engineering Informatics 64 (2025).|SOP|DE|[LLMOA](https://github.com/RuiZhong961230/LLMOA)|
 |LLaMEA with controlled mutation|Yin, Haoran, et al. "[**Controlling the mutation in large language models for the efficient evolution of algorithms**](https://arxiv.org/abs/2412.03250)." arXiv preprint arXiv:2412.03250 (2024).|SOP|ES|-|
 |LLMOA|Zhong, Rui, et al. "[**LLMOA: A novel large language model assisted hyper-heuristic optimization algorithm**](https://www.sciencedirect.com/science/article/pii/S1474034624006931)." Advanced Engineering Informatics 64 (2025).|SOP|DE|[LLMOA](https://github.com/RuiZhong961230/LLMOA)|
 |GeminiDE|Zhong, Rui, et al. "[**GeminiDE: A Novel Parameter Adaptation Scheme in Differential Evolution**](https://ieeexplore.ieee.org/document/10704309)." 2024 6th International Conference on Data-driven Optimization of Complex Systems (DOCS). IEEE, (2024).|SOP|DE|[GeminiDE](https://github.com/RuiZhong961230/GeminiDE.)|
@@ -398,6 +401,8 @@ All papers are sorted by year of publication.
 ### 3.3🛠 Application
 |Algorithm|Paper|Learning paradigm|Automated algorithm design task|Code|Application|
 |:-:|:-:|:-:|:-:|:-:|:-:|
+|RPSO|Zhang, Zihang, et al. "[**Reinforcement learning-based particle swarm optimization for wind farm layout problems**](https://www.sciencedirect.com/science/article/pii/S0360544224038283)." Energy 313 (2024).|Meta-RL|Algorithm Configuration|[RPSO](https://toyamaailab.github.io/)|Wind farm layout problems|
+|The investigation of the ability of OpenAI-ES|Lorenc, Matyáš. "[**Utilizing Evolution Strategies to Train Transformers in Reinforcement Learning**](https://arxiv.org/abs/2501.13883)." arXiv preprint arXiv:2501.13883 (2025).|-|-|[Code](https://github.com/Mafi412/ Evolution-Strategies-and-Decision-Transformers)|Training of Networks|
 |DQLGA|Q. Chen and W. Ding, "[**A Genetic Algorithm Based on Deep Q-learning in Optimization of Remote Sensing Data Discretization**](https://ieeexplore.ieee.org/document/10730790)" IEEE Transactions on Evolutionary Computation (2024)|Meta-RL|Algorithm Configuration|-|Remote Sensing|
 |DQN-Based NSGA-II|Pei, C. H. I., et al. "[**Dynamic effect web generation for heterogeneous UAV cluster using DQN-based NSGA-II: Methods and applications**](https://www.sciencedirect.com/science/article/pii/S1000936124005077)." Chinese Journal of Aeronautics (2024)|Meta-RL|Algorithm Configuration|-|Unmanned Aerial Vehicles|
 
